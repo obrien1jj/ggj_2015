@@ -46,10 +46,10 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\ChangeTrustCol.cs" />
      <Compile Include="Assets\Scripts\Character.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
-     <Compile Include="Assets\Scripts\TrustValueTest.cs" />
+     <Compile Include="Assets\Scripts\TriggerTrap.cs" />
+     <Compile Include="Assets\Scripts\TrustValue.cs" />
      <Compile Include="Assets\ThirdParty\TK2DROOT\tk2d\Code\Camera\tk2dCamera.cs" />
      <Compile Include="Assets\ThirdParty\TK2DROOT\tk2d\Code\Camera\tk2dCameraAnchor.cs" />
      <Compile Include="Assets\ThirdParty\TK2DROOT\tk2d\Code\Camera\tk2dCameraUtil.cs" />
