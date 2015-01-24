@@ -16,7 +16,7 @@ public class Personality : MonoBehaviour {
 	void Start () {
 		//gameObject.GetComponent <TrustValueTest>().Trust = 50;
 	}
-	
+	//blah blah blah
 	// Update is called once per frame
 	void Update () {
 		
