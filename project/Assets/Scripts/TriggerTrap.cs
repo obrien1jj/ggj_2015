@@ -29,7 +29,7 @@ public class TriggerTrap : MonoBehaviour {
 			if (other.gameObject.CompareTag ("Hero")) {
 				//damage Trust
 				other.gameObject.GetComponent<TrustValue> ().ChangeTrust (dTrust);
-				print (other.gameObject.GetComponent<TrustValue> ().Trust);
+				print (other.gameObject.GetComponent<TrustValue> ().trust);
 		
 				// Trap is moved with animation
 

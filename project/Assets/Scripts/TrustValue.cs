@@ -3,12 +3,36 @@ using System.Collections;
 
 public class TrustValue : MonoBehaviour {
 
-	public int Trust = 20;
-	int startTrust;
+	public int trust;
+
+
+	/////////////////////
+	//NOTE:  THE 8 HEROES HAVE PRESET TRAIT LEVELS, SO THEY WON'T BE RANDOM
+	//BUT THERE MIGHT BE MORE HEROES THAT DO HAVE RANDOM TRAITS
+	/////////////////////
+
+
+	//base starting trust
+	int base_trust = 50;
+	//ambitious		|	cautious	:	how much trust the hero starts with
+	public int ambition;  //used to be "startTrust"
+	//rugged		|	feeble		:   how much the hero loses from a single trap
+	public int ruggedness;
+	//forgiving		|	harsh		:   how much the hero loses from hitting a bunch of traps
+	public int harshness;
+	//unquestioning	|	skeptical	:	how much trust the hero gets from completing a room
+	public int suspicion;
+	//greedy		|	pious		:	how much trust the hero gets from finding treasure
+	public int greed;
 
 	// Use this for initialization
 	void Start () {
-		startTrust = Trust;
+		ambition = (int)Random.Range (-20.0F, 20.0F);
+		ruggedness = (int)Random.Range (-20.0F, 20.0F);
+		harshness = (int)Random.Range (-20.0F, 20.0F);
+		suspicion = (int)Random.Range (-20.0F, 20.0F);
+		greed = (int)Random.Range (-20.0F, 20.0F);
+		trust = base_trust + ambition;
 	}
 	
 	// Update is called once per frame
@@ -17,6 +41,6 @@ public class TrustValue : MonoBehaviour {
 	}
 
 	public void ChangeTrust (int dTrustVal) {
-		Trust += dTrustVal;
+		trust += dTrustVal;
 	}
 }
