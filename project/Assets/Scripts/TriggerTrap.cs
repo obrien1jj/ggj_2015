@@ -6,6 +6,9 @@ public class TriggerTrap : MonoBehaviour {
 	public int dTrust = 5;
 	public bool leathal = false;
 	public bool IsActive = true;
+	public int dx;
+	public int dy;
+	public int dz;
 
 	// Use this for initialization
 	void Start () {
@@ -22,7 +25,7 @@ public class TriggerTrap : MonoBehaviour {
 	void OnTriggerEnter (Collider other) {
 	
 				// check if it the Hero on the trap
-		if (isActive == true) {
+		if (IsActive == true) {
 			if (other.gameObject.CompareTag ("Hero")) {
 				//damage Trust
 				other.gameObject.GetComponent<TrustValue> ().ChangeTrust (dTrust);
@@ -31,7 +34,7 @@ public class TriggerTrap : MonoBehaviour {
 				// Trap is moved with animation
 
 				//Move Hero
-				other.gameObject.GetComponent<Rigidbody> ().AddForce (Vector3.up);
+				other.gameObject.GetComponent<Rigidbody> ().AddForce (dx, dy, dz);
 
 			}
 		}
