@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class TrustValueTest : MonoBehaviour {
+public class TrustValue : MonoBehaviour {
 
 	public int Trust = 20;
 	int startTrust;
