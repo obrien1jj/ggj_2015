@@ -14,7 +14,7 @@ public class Personality : MonoBehaviour {
 	public Personality_Type attitude = Personality_Type.ambitious;
 	// Use this for initialization
 	void Start () {
-		gameObject.GetComponent <TrustValueTest>().Trust = 50;
+		//gameObject.GetComponent <TrustValueTest>().Trust = 50;
 	}
 	
 	// Update is called once per frame
