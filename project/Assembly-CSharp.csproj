@@ -96,6 +96,25 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Character.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
+     <Compile Include="Assets\ThirdParty\AdvancedInspector\Examples\CSharp\AIExample_Attributes.cs" />
+     <Compile Include="Assets\ThirdParty\AdvancedInspector\Examples\CSharp\AIExample_BaseType.cs" />
+     <Compile Include="Assets\ThirdParty\AdvancedInspector\Examples\CSharp\AIExample_Binding.cs" />
+     <Compile Include="Assets\ThirdParty\AdvancedInspector\Examples\CSharp\AIExample_ComponentA.cs" />
+     <Compile Include="Assets\ThirdParty\AdvancedInspector\Examples\CSharp\AIExample_ComponentB.cs" />
+     <Compile Include="Assets\ThirdParty\AdvancedInspector\Examples\CSharp\AIExample_ComponentBase.cs" />
+     <Compile Include="Assets\ThirdParty\AdvancedInspector\Examples\CSharp\AIExample_ComponentC.cs" />
+     <Compile Include="Assets\ThirdParty\AdvancedInspector\Examples\CSharp\AIExample_DefaultInspection.cs" />
+     <Compile Include="Assets\ThirdParty\AdvancedInspector\Examples\CSharp\AIExample_Dictionary.cs" />
+     <Compile Include="Assets\ThirdParty\AdvancedInspector\Examples\CSharp\AIExample_External.cs" />
+     <Compile Include="Assets\ThirdParty\AdvancedInspector\Examples\CSharp\AIExample_IListAttribute.cs" />
+     <Compile Include="Assets\ThirdParty\AdvancedInspector\Examples\CSharp\AIExample_IRuntimeAttribute.cs" />
+     <Compile Include="Assets\ThirdParty\AdvancedInspector\Examples\CSharp\AIExample_Interface.cs" />
+     <Compile Include="Assets\ThirdParty\AdvancedInspector\Examples\CSharp\AIExample_List.cs" />
+     <Compile Include="Assets\ThirdParty\AdvancedInspector\Examples\CSharp\AIExample_Preview.cs" />
+     <Compile Include="Assets\ThirdParty\AdvancedInspector\Examples\CSharp\AIExample_Range.cs" />
+     <Compile Include="Assets\ThirdParty\AdvancedInspector\Examples\CSharp\AIExample_Running.cs" />
+     <Compile Include="Assets\ThirdParty\AdvancedInspector\Examples\CSharp\AIExample_Sorting.cs" />
+     <Compile Include="Assets\ThirdParty\AdvancedInspector\Examples\CSharp\AIExample_Tabs.cs" />
      <Compile Include="Assets\ThirdParty\TK2DROOT\tk2d\Code\Camera\tk2dCamera.cs" />
      <Compile Include="Assets\ThirdParty\TK2DROOT\tk2d\Code\Camera\tk2dCameraAnchor.cs" />
      <Compile Include="Assets\ThirdParty\TK2DROOT\tk2d\Code\Camera\tk2dCameraUtil.cs" />
@@ -193,6 +212,7 @@
      <None Include="Assets\ThirdParty\TK2DROOT\tk2d\Shaders\CutoutVertexColor.shader" />
      <None Include="Assets\ThirdParty\TK2DROOT\tk2d_demo\demobmfont\test.fnt" />
      <None Include="Assets\ThirdParty\TK2DROOT\tk2dUI_demo\Assets\Font\OldSansBlack\OldSansBlack.fnt" />
+     <None Include="Assets\ThirdParty\AdvancedInspector\Documentation\AdvancedInspector_ReadMe.txt" />
      <None Include="Assets\ThirdParty\TK2DROOT\tk2d\Shaders\LitBlendVertexColor.shader" />
      <None Include="Assets\ThirdParty\TK2DROOT\tk2dUI_demo\Assets\Dark\Fonts\Nunito16.fnt" />
      <None Include="Assets\ThirdParty\TK2DROOT\tk2dUI_demo\Assets\Dark\Fonts\Nunito32.fnt" />

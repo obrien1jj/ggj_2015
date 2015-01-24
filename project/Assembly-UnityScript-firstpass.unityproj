@@ -68,6 +68,7 @@
      <None Include="Assets\ThirdParty\TK2DROOT\tk2d\Shaders\CutoutVertexColor.shader" />
      <None Include="Assets\ThirdParty\TK2DROOT\tk2d_demo\demobmfont\test.fnt" />
      <None Include="Assets\ThirdParty\TK2DROOT\tk2dUI_demo\Assets\Font\OldSansBlack\OldSansBlack.fnt" />
+     <None Include="Assets\ThirdParty\AdvancedInspector\Documentation\AdvancedInspector_ReadMe.txt" />
      <None Include="Assets\ThirdParty\TK2DROOT\tk2d\Shaders\LitBlendVertexColor.shader" />
      <None Include="Assets\ThirdParty\TK2DROOT\tk2dUI_demo\Assets\Dark\Fonts\Nunito16.fnt" />
      <None Include="Assets\ThirdParty\TK2DROOT\tk2dUI_demo\Assets\Dark\Fonts\Nunito32.fnt" />

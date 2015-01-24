@@ -5,11 +5,11 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{A2F055FC-82E1-E36B-E172-6C2074565427}</ProjectGuid>
+	<ProjectGuid>{4BF79580-BD40-8719-DEC4-3FC42411B4D7}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
-	<AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
 	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
 	<FileAlignment>512</FileAlignment>
 	<BaseDirectory>Assets</BaseDirectory>
@@ -46,46 +46,24 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Plugins\AdvancedInspector\Attributes\AdvancedInspector.cs" />
-     <Compile Include="Assets\Plugins\AdvancedInspector\Attributes\Angle.cs" />
-     <Compile Include="Assets\Plugins\AdvancedInspector\Attributes\Background.cs" />
-     <Compile Include="Assets\Plugins\AdvancedInspector\Attributes\Bypass.cs" />
-     <Compile Include="Assets\Plugins\AdvancedInspector\Attributes\Collection.cs" />
-     <Compile Include="Assets\Plugins\AdvancedInspector\Attributes\CreateDerived.cs" />
-     <Compile Include="Assets\Plugins\AdvancedInspector\Attributes\Descriptor.cs" />
-     <Compile Include="Assets\Plugins\AdvancedInspector\Attributes\DisplayAsParent.cs" />
-     <Compile Include="Assets\Plugins\AdvancedInspector\Attributes\DontAllowSceneObject.cs" />
-     <Compile Include="Assets\Plugins\AdvancedInspector\Attributes\Enum.cs" />
-     <Compile Include="Assets\Plugins\AdvancedInspector\Attributes\Expandable.cs" />
-     <Compile Include="Assets\Plugins\AdvancedInspector\Attributes\FieldEditor.cs" />
-     <Compile Include="Assets\Plugins\AdvancedInspector\Attributes\Group.cs" />
-     <Compile Include="Assets\Plugins\AdvancedInspector\Attributes\Help.cs" />
-     <Compile Include="Assets\Plugins\AdvancedInspector\Attributes\Inspect.cs" />
-     <Compile Include="Assets\Plugins\AdvancedInspector\Attributes\Method.cs" />
-     <Compile Include="Assets\Plugins\AdvancedInspector\Attributes\RangeValue.cs" />
-     <Compile Include="Assets\Plugins\AdvancedInspector\Attributes\ReadOnly.cs" />
-     <Compile Include="Assets\Plugins\AdvancedInspector\Attributes\Restrict.cs" />
-     <Compile Include="Assets\Plugins\AdvancedInspector\Attributes\RuntimeResolve.cs" />
-     <Compile Include="Assets\Plugins\AdvancedInspector\Attributes\Space.cs" />
-     <Compile Include="Assets\Plugins\AdvancedInspector\Attributes\Style.cs" />
-     <Compile Include="Assets\Plugins\AdvancedInspector\Attributes\Tab.cs" />
-     <Compile Include="Assets\Plugins\AdvancedInspector\Attributes\TextField.cs" />
-     <Compile Include="Assets\Plugins\AdvancedInspector\Attributes\Toolbar.cs" />
-     <Compile Include="Assets\Plugins\AdvancedInspector\Core\ActionBinding.cs" />
-     <Compile Include="Assets\Plugins\AdvancedInspector\Core\ComponentMonoBehaviour.cs" />
-     <Compile Include="Assets\Plugins\AdvancedInspector\Core\RangeFloat.cs" />
-     <Compile Include="Assets\Plugins\AdvancedInspector\Core\RangeInt.cs" />
-     <Compile Include="Assets\Plugins\AdvancedInspector\Core\UDictionary.cs" />
-     <Compile Include="Assets\Plugins\AdvancedInspector\Event\EventHandlers.cs" />
-     <Compile Include="Assets\Plugins\AdvancedInspector\Interface\ICopiable.cs" />
-     <Compile Include="Assets\Plugins\AdvancedInspector\Interface\ICopy.cs" />
-     <Compile Include="Assets\Plugins\AdvancedInspector\Interface\IDataChanged.cs" />
-     <Compile Include="Assets\Plugins\AdvancedInspector\Interface\IInspectorRunning.cs" />
-     <Compile Include="Assets\Plugins\AdvancedInspector\Interface\IListAttribute.cs" />
-     <Compile Include="Assets\Plugins\AdvancedInspector\Interface\IPreview.cs" />
-     <Compile Include="Assets\Plugins\AdvancedInspector\Interface\IRuntimeAttribute.cs" />
-     <Compile Include="Assets\Plugins\AdvancedInspector\Utility\TypeUtility.cs" />
-     <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\ThirdParty\AdvancedInspector\Examples\JS\AIExampleJS_Attributes.js" />
+     <Compile Include="Assets\ThirdParty\AdvancedInspector\Examples\JS\AIExampleJS_BaseType.js" />
+     <Compile Include="Assets\ThirdParty\AdvancedInspector\Examples\JS\AIExampleJS_Binding.js" />
+     <Compile Include="Assets\ThirdParty\AdvancedInspector\Examples\JS\AIExampleJS_ComponentA.js" />
+     <Compile Include="Assets\ThirdParty\AdvancedInspector\Examples\JS\AIExampleJS_ComponentB.js" />
+     <Compile Include="Assets\ThirdParty\AdvancedInspector\Examples\JS\AIExampleJS_ComponentBase.js" />
+     <Compile Include="Assets\ThirdParty\AdvancedInspector\Examples\JS\AIExampleJS_ComponentC.js" />
+     <Compile Include="Assets\ThirdParty\AdvancedInspector\Examples\JS\AIExampleJS_DefaultInspection.js" />
+     <Compile Include="Assets\ThirdParty\AdvancedInspector\Examples\JS\AIExampleJS_Dictionary.js" />
+     <Compile Include="Assets\ThirdParty\AdvancedInspector\Examples\JS\AIExampleJS_External.js" />
+     <Compile Include="Assets\ThirdParty\AdvancedInspector\Examples\JS\AIExampleJS_IListAttribute.js" />
+     <Compile Include="Assets\ThirdParty\AdvancedInspector\Examples\JS\AIExampleJS_IRuntimeAttribute.js" />
+     <Compile Include="Assets\ThirdParty\AdvancedInspector\Examples\JS\AIExampleJS_List.js" />
+     <Compile Include="Assets\ThirdParty\AdvancedInspector\Examples\JS\AIExampleJS_Preview.js" />
+     <Compile Include="Assets\ThirdParty\AdvancedInspector\Examples\JS\AIExampleJS_Range.js" />
+     <Compile Include="Assets\ThirdParty\AdvancedInspector\Examples\JS\AIExampleJS_Running.js" />
+     <Compile Include="Assets\ThirdParty\AdvancedInspector\Examples\JS\AIExampleJS_Sorting.js" />
+     <Compile Include="Assets\ThirdParty\AdvancedInspector\Examples\JS\AIExampleJS_Tabs.js" />
      <None Include="Assets\ThirdParty\TK2DROOT\tk2d\Shaders\LitSolidVertexColor.shader" />
      <None Include="Assets\ThirdParty\TK2DROOT\tk2d\Goodies\TexturePacker\Exporter\2dtoolkit\exporter.xml" />
      <None Include="Assets\ThirdParty\TK2DROOT\tk2d\Shaders\SolidVertexColor.shader" />
@@ -109,6 +87,13 @@
      <None Include="Assets\ThirdParty\TK2DROOT\tk2dUI_demo\Assets\Dark\Fonts\Nunito32.fnt" />
      <None Include="Assets\ThirdParty\TK2DROOT\tk2d\Shaders\AdditiveVertexColor.shader" />
      <None Include="Assets\ThirdParty\TK2DROOT\tk2d_demo\democameradata\source\democamerafont.fnt" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{A2F055FC-82E1-E36B-E172-6C2074565427}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
