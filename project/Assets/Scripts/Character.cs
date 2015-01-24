@@ -10,25 +10,11 @@ public class Character : MonoBehaviour
 	protected AnimatorStateInfo st;
 	protected AnimatorStateInfo nst;
 
-	public Material actionModeTintMaterial;
+	protected Vector3 targetLocation;
 
 	public CharacterController controller;
 
-	private bool _actionMode;
-	protected bool actionMode {
-		get { return _actionMode; }
-		set 
-		{
-			if (_actionMode != value)
-			{
-				Color temp = actionModeTintMaterial.color;
-				temp.a = value?0.4f:0;
-				actionModeTintMaterial.color = temp;
-				_actionMode = value;
-			}
 
-		}
-	}
 
 	virtual protected void Awake()
 	{
@@ -42,10 +28,6 @@ public class Character : MonoBehaviour
 			animator = controller.GetComponentInChildren<Animator>();
 	}
 
-	// Use this for initialization
-	void Start () {
-	
-	}
 
 	virtual protected void OnDestroy()
 	{
@@ -53,11 +35,90 @@ public class Character : MonoBehaviour
 	}
 		
 	// Update is called once per frame
-	void Update () {
+	virtual protected void Update () {
 	
-		actionMode = Input.GetKey(KeyCode.Space);
-
+		//empty
+		//handle target location movment
 
 
 	}
+
+
+//	public void MoveTo(Ray ray)
+//	{					
+//		RaycastHit hit;
+//		if ( Physics.Raycast(ray, out hit) && !UIManager.instance.DidAnyPointerHitUI())// && !performingAction)
+//		{
+//			float touchDist = (transform.position - hit.point).magnitude;
+//			string hitGoName = AmFamUtils.GetHitItemsName(hit.transform);
+//			
+//			if (XMLData.houseHoldItems.ContainsKey(hitGoName) && XMLData.houseHoldItems[hitGoName].clickEnabled) // && hit.transform.Find(GetAttachPoint()) != null && thisAnimation[XMLData.houseHoldItems[hit.transform.gameObject.name].clickAction] != null)
+//			{
+//				StopMoving();
+//				bool repair = false;
+//				bool drivable = false;
+//				if((XMLData.houseHoldItems[hitGoName].clickAction == eActionType.REPAIR || XMLData.houseHoldItems[hitGoName].clickAction == eActionType.WATCH_TV) && globalDataModel.AtHome)
+//				{
+//					string[] disasterTypes = XMLData.houseHoldItems[hitGoName].disaster.Split(':');
+//					foreach(string disaster in disasterTypes)
+//					{
+//						DisasterType type = DisasterType.getTypeByName(disaster);
+//						if(globalDataModel.houseHold.hasDisaster(type))
+//						{
+//							repair = true;
+//							globalDataModel.disasterManager.displayDisasterDialog(type);
+//						}
+//					}
+//					
+//					drivable = (DrivingGameLauncher.IsDriveable(XMLData.houseHoldItems[hitGoName]) && Settings.DRIVING_FEATURE_ENABLED);
+//				}
+//				if(!repair)
+//				{
+//					if (drivable)
+//					{
+//						DrivingGameLauncher.instance.HandleVehicleClickAction(XMLData.houseHoldItems[hitGoName].key, XMLData.houseHoldItems[hitGoName].uid);
+//					}
+//					else if ((ezguiController.IsObjectOccupied(hit.transform.gameObject) == null) || XMLData.houseHoldItems[hitGoName].allowMultiple)
+//					{
+//						actionItemClickHandler(new ActionData(XMLData.houseHoldItems[hitGoName].clickAction, hit.transform.gameObject));
+//					}
+//				}
+//				moving = false;
+//			} else if (globalDataModel.AtHome && !performingAction) {
+//				if ( touchDist > minimumDistanceToMove )
+//				{
+//					targetLocation = hit.point;
+//				}
+//				//				if(touchPhase == TouchPhase.Ended || touchPhase == TouchPhase.Canceled){
+//				//					touching = false;
+//				if (navigation != null) {
+//					if ((thisAnimation.IsPlaying("idle")==false) && !moving) //TODO : find a better way to move character out of items
+//					{
+//						Debug.Log("not idling");
+//						if (charSource) {
+//							Debug.Log("calling move");
+//							if(character.CharacterType != (int)eCharacterType.child)
+//							{
+//								soundFXManager.StopDance(character.CharacterType == (int)eCharacterType.player);
+//							}
+//							if (character.State == eCharacterState.sellingLemonade)
+//							{
+//								GameObject.Find("HouseGame").GetComponent<HouseGame>().stopLemonadeStand();
+//							}
+//							charSource.MoveToClosestOpenCell();
+//							idle();
+//						}
+//					}
+//					moving = true;
+//					navigation.MoveToPosition(targetLocation, 0.5f);
+//					
+//					// Place a marker to indicate goal
+//					PlaceMarker(new Vector3(targetLocation.x, 3, targetLocation.z));
+//				}
+//				//				} else {
+//				//					touching = true;
+//				//				}
+//			}	
+//		}
+//	}
 }

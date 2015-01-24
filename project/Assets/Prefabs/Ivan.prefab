@@ -151,8 +151,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98f7738199f258b4aac07ad81ca92832, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  actionModeTintMaterial: {fileID: 2100000, guid: 88fa8811954171c439b750d3d6741d84,
-    type: 2}
   controller: {fileID: 14300000}
 --- !u!114 &11400002
 MonoBehaviour:
