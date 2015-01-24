@@ -4,14 +4,14 @@
 [Bb]uild/
 
 
-project/*.csproj
-project/*.unityproj
-project/*.sln
-project/*.suo
-project/*.user
-project/*.userprefs
-project/*.pidb
-project/*.booproj
+project\*.csproj
+project\*.unityproj
+project\*.sln
+project\*.suo
+project\*.user
+project\*.userprefs
+project\*.pidb
+project\*.booproj
 
 #Unity3D Generated File On Crash Reports
 sysinfo.txt
