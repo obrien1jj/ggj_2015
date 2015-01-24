@@ -5,6 +5,7 @@ Project("{46F86FAA-6BBF-9AC9-4A7E-459509A20ED0}") = "project", "Assembly-CSharp-
 EndProject
 Project("{46F86FAA-6BBF-9AC9-4A7E-459509A20ED0}") = "project", "Assembly-CSharp.csproj", "{7CA597AC-799E-2D81-E8A0-0EA9A568434E}"
 EndProject
+<<<<<<< Updated upstream
 Project("{46F86FAA-6BBF-9AC9-4A7E-459509A20ED0}") = "project", "Assembly-CSharp-Editor-firstpass.csproj", "{976C2722-6F6B-50A4-1907-6F79B1984831}"
 EndProject
 Project("{46F86FAA-6BBF-9AC9-4A7E-459509A20ED0}") = "project", "Assembly-CSharp-Editor.csproj", "{350FE3E3-48A3-F652-05DF-AA9DB89C53B0}"
@@ -13,6 +14,10 @@ Project("{46F86FAA-6BBF-9AC9-4A7E-459509A20ED0}") = "project", "Assembly-UnitySc
 EndProject
 Project("{46F86FAA-6BBF-9AC9-4A7E-459509A20ED0}") = "project", "Assembly-UnityScript.unityproj", "{4BF79580-BD40-8719-DEC4-3FC42411B4D7}"
 EndProject
+=======
+Project("{46F86FAA-6BBF-9AC9-4A7E-459509A20ED0}") = "project", "Assembly-UnityScript-firstpass.unityproj", "{8F3CE9A9-700A-12B4-8943-02DD2DF3DC22}"
+EndProject
+>>>>>>> Stashed changes
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +32,7 @@ Global
 		{7CA597AC-799E-2D81-E8A0-0EA9A568434E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CA597AC-799E-2D81-E8A0-0EA9A568434E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CA597AC-799E-2D81-E8A0-0EA9A568434E}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< Updated upstream
 		{976C2722-6F6B-50A4-1907-6F79B1984831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{976C2722-6F6B-50A4-1907-6F79B1984831}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{976C2722-6F6B-50A4-1907-6F79B1984831}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -35,19 +41,28 @@ Global
 		{350FE3E3-48A3-F652-05DF-AA9DB89C53B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{350FE3E3-48A3-F652-05DF-AA9DB89C53B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{350FE3E3-48A3-F652-05DF-AA9DB89C53B0}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+>>>>>>> Stashed changes
 		{8F3CE9A9-700A-12B4-8943-02DD2DF3DC22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8F3CE9A9-700A-12B4-8943-02DD2DF3DC22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F3CE9A9-700A-12B4-8943-02DD2DF3DC22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F3CE9A9-700A-12B4-8943-02DD2DF3DC22}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< Updated upstream
 		{4BF79580-BD40-8719-DEC4-3FC42411B4D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4BF79580-BD40-8719-DEC4-3FC42411B4D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BF79580-BD40-8719-DEC4-3FC42411B4D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BF79580-BD40-8719-DEC4-3FC42411B4D7}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+>>>>>>> Stashed changes
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+<<<<<<< Updated upstream
 						GlobalSection(MonoDevelopProperties) = preSolution
+=======
+				GlobalSection(MonoDevelopProperties) = preSolution
+>>>>>>> Stashed changes
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
