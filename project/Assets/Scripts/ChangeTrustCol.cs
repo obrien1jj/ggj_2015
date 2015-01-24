@@ -15,12 +15,14 @@ public class ChangeTrustCol : MonoBehaviour {
 
 	}
 
-	void OnCollisionEnter (Collision other) {
+	void OnTriggerEnter (Collider other) {
 
+		print ("test");
 		Debug.Log ("weeee");
 		if (other.gameObject.CompareTag ("Hero")) {
 			print("test");
 			other.gameObject.GetComponent<TrustValueTest>().ChangeTrust(dTrust);
+			print (other.gameObject.GetComponent<TrustValueTest>().Trust);
 		}
 	}
 }

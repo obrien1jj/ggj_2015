@@ -17,7 +17,6 @@ public class TrustValueTest : MonoBehaviour {
 	}
 
 	public void ChangeTrust (int dTrustVal) {
-		return;
 		Trust += dTrustVal;
 	}
 }
