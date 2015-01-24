@@ -8,10 +8,13 @@ public class IvanCharacter : Character
 	// Update is called once per frame
 	override protected void Update () {
 		base.Update();
-
-		//ermpty
 		
-		
+		if (!GameManager.Instance.actionMode && Input.GetKeyDown(KeyCode.Mouse0))
+		{
+			Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+//			playerControls.PlaceMarker += PlaceDestinationMarker;
+			MoveTo(ray);
+		}
 		
 	}
 
