@@ -16,6 +16,7 @@ public class Character : MonoBehaviour
 	public float speed;
 
 	public CharacterController controller;
+	public GameObject shadow;
 	
 
 
@@ -87,6 +88,7 @@ public class Character : MonoBehaviour
 		// Face the character to match with where she is moving	
 		FaceMovementDirection();
 
+		UpdateShadow();
 		//empty
 		//handle target location movment
 
@@ -119,5 +121,17 @@ public class Character : MonoBehaviour
 				//PlaceMarker(new Vector3(targetLocation.x, 3, targetLocation.z));
 
 		}	
+	}
+
+	void UpdateShadow()
+	{
+
+		float height = 1f;//(model.hipRoot.position.y - 0.5f) - (controller.height / 2f);
+		
+		float heightScale = (4f - height)  / 4f;
+		heightScale *= controllerXfrm.localScale.x;
+		shadow.transform.localScale = new Vector3(heightScale, heightScale, 1);
+		shadow.transform.position = new Vector3(controllerXfrm.position.x, 0.5f, controllerXfrm.position.z);
+
 	}
 }

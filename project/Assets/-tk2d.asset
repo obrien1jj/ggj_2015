@@ -692,3 +692,16 @@ MonoBehaviour:
     loadable: 0
     assetName: 
     version: 3
+  - name: Stuff
+    spriteCollectionGUID: 75a4ac11b2f68d449964b8035c6c9e5f
+    spriteCollectionDataGUID: aa62088392807324ca0361c724fb36bc
+    spriteNames:
+    - shadow
+    spriteTextureGUIDs:
+    - 3fdeb3c7474fb2443b2524349e64bc8d
+    spriteTextureTimeStamps:
+    - 1366477374
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
