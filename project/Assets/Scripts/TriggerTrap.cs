@@ -4,15 +4,17 @@ using System.Collections;
 public class TriggerTrap : MonoBehaviour {
 
 	public int dTrust = 5;
-	public bool leathal = false;
+	public bool IsLethal = false;
 	public bool IsActive = true;
+	public bool IsChest = true;
+	public int AnimSpeed = 1;
 	public int dx;
 	public int dy;
 	public int dz;
 
 	// Use this for initialization
 	void Start () {
-		if (leathal == true)
+		if (IsLethal == true)
 						dTrust = -1000;
 	}
 	
@@ -32,9 +34,13 @@ public class TriggerTrap : MonoBehaviour {
 				print (other.gameObject.GetComponent<TrustValue> ().trust);
 		
 				// Trap is moved with animation
-
+				if (IsChest == false)
 				//Move Hero
-				other.gameObject.GetComponent<Rigidbody> ().AddForce (dx, dy, dz);
+					other.gameObject.GetComponent<Rigidbody> ().AddForce (dx, dy, dz);
+				else
+					IsActive = false;
+				animation.Play ("Take 001");
+				animation["Take 001"].speed = AnimSpeed;
 
 			}
 		}
