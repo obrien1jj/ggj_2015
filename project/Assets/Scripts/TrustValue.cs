@@ -32,6 +32,7 @@ public class TrustValue : MonoBehaviour {
 		suspicion = (int)Random.Range (-20.0F, 20.0F);
 		greed = (int)Random.Range (-20.0F, 20.0F);
 		trust = base_trust + ambition;
+		TrustBar.Instance.gameObject.GetComponent<TrustBar>().updateBar ((float)trust/100);
 	}
 	
 	// Update is called once per frame

@@ -56,10 +56,10 @@ public class Character : MonoBehaviour
 		{
 			// Move towards the target location
 			movement = targetLocation - controllerXfrm.position;
-			movement.y = 0;
+			movement.y = 0.0f;
 			float dist = movement.magnitude;
 			
-			if( dist < 0.01f )
+			if( dist < 0.1f )
 			{
 				moving = false;
 			}
@@ -104,7 +104,7 @@ public class Character : MonoBehaviour
 	private void FaceMovementDirection()
 	{
 		Vector3 horizontalVelocity = controller.velocity;
-		horizontalVelocity.y = 0; // Ignore vertical movement
+		horizontalVelocity.y = 0.0f; // Ignore vertical movement
 		
 		// If moving significantly in a new direction, point that character in that direction
 		if ( horizontalVelocity.magnitude > 0.1 )
@@ -124,7 +124,7 @@ public class Character : MonoBehaviour
 		
 		float heightScale = (4f - height)  / 4f;
 		heightScale *= controllerXfrm.localScale.x;
-		shadow.transform.localScale = new Vector3(heightScale, heightScale, 1);
+		shadow.transform.localScale = new Vector3(heightScale, heightScale, 1.0f);
 		shadow.transform.position = new Vector3(controllerXfrm.position.x, 0.5f, controllerXfrm.position.z);
 
 	}

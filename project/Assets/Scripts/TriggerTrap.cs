@@ -8,6 +8,7 @@ public class TriggerTrap : MonoBehaviour {
 	public bool IsActive = true;
 	public bool IsChest = true;
 	public int AnimSpeed = 1;
+	public bool GlobalF = true;
 	public int dx;
 	public int dy;
 	public int dz;
@@ -16,6 +17,7 @@ public class TriggerTrap : MonoBehaviour {
 	void Start () {
 		if (IsLethal == true)
 						dTrust = -1000;
+		//print ("I am on");
 	}
 	
 	// Update is called once per frame
@@ -25,19 +27,28 @@ public class TriggerTrap : MonoBehaviour {
 
 	// when Trap is triggered
 	IEnumerator OnTriggerEnter (Collider other) {
+
+		//print ("I have been hit");
 	
 				// check if it the Hero on the trap
 		if (IsActive == true) {
+
+			//print ("I am active");
 			if (other.gameObject.CompareTag ("Hero")) {
 				//damage Trust
 				other.gameObject.GetComponent<TrustValue> ().ChangeTrust (dTrust);
-				print (other.gameObject.GetComponent<TrustValue> ().trust);
+				//print (other.gameObject.GetComponent<TrustValue> ().trust);
 		
 				animation.Play ("Take 001");
 				animation["Take 001"].speed = AnimSpeed;
 				if (IsChest == false){
 				//Move Hero
-					other.gameObject.GetComponent<Rigidbody> ().AddForce (dx, dy, dz);
+
+					if (GlobalF == true)
+						other.gameObject.GetComponent<NavAi> ().GlobalForce (dx, dy, dz);
+					else
+						other.gameObject.GetComponent<NavAi> ().RelativeForce (dx, dy, dz);
+
 					yield return new WaitForSeconds ((animation.clip.length/AnimSpeed));
 					animation["Take 001"].speed = -AnimSpeed;
 					animation.Play ("Take 001");
