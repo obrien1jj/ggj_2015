@@ -6,17 +6,9 @@ public class RoomData : MonoBehaviour {
 	public enum TileType {NullObj, AxeX, AxeZ, ChestXp, ChestXn, ChestZp, ChestZn, 
 		Pillar, PistonXp, PistonXn, PistonZp, PistonZn,
 		Spikes, SwitchXp, SwitchXn, SwitchZp, SwitchZn, SwitchYp, TheBigSpike};
-<<<<<<< Updated upstream
-	
+
 	//a matrix of the room's layout
 	TileType[,] layout = new TileType[8, 8];
-=======
-	
-	public TileType test = TileType.TheBigSpike;
-	
-	//a matrix of the room's layout
-	TileType[,] layout = new TileType[8,8];
->>>>>>> Stashed changes
 	
 	//what doors does this room have?  these are inside the wall so they aren't a tile.
 	// will have position
@@ -30,14 +22,7 @@ public class RoomData : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-<<<<<<< Updated upstream
 		layout [0, 0] = TileType.ChestXp;
-=======
-		layout[0, 0] = test;
-		print (layout[0,0]);
-		print (layout [0, 1]);
->>>>>>> Stashed changes
-		
 	}
 	
 	// Update is called once per frame
@@ -45,7 +30,6 @@ public class RoomData : MonoBehaviour {
 		
 	}
 
-<<<<<<< Updated upstream
 	void UpdateRoom(){
 		for (int j = 0; j < 8; j++) {
 			for(int i=0; i < 8; i++){
@@ -53,58 +37,58 @@ public class RoomData : MonoBehaviour {
 				switch(ObjType)
 				{
 				case TileType.AxeX:
-					Instantiate(Resources.Load(AxeX), new Vector3((float)(i * 1.25 - 4.5), (float)(j * -1.25 + 4.5), 0), new Vector3(0, 0, 0));
+					Instantiate(Resources.Load("AxeX"), new Vector3((float)(i * 1.25 - 4.5), (float)(j * -1.25 + 4.5), 0), Quaternion.identity) ;
 					break;
 				case TileType.AxeZ:
-					Instantiate(Resources.Load(AxeZ), new Vector3((float)(i * 1.25 - 4.5), (float)(j * -1.25 + 4.5), 0), new Vector3(0, 0, 0));
+					Instantiate(Resources.Load("AxeZ"), new Vector3((float)(i * 1.25 - 4.5), (float)(j * -1.25 + 4.5), 0), Quaternion.identity) ;
 					break;
 				case TileType.ChestXp:
-					Instantiate(Resources.Load(ChestXp), new Vector3((float)(i * 1.25 - 4.5), (float)(j * -1.25 + 4.5), 0), new Vector3(0, 0, 0));
+					Instantiate(Resources.Load("ChestXp"), new Vector3((float)(i * 1.25 - 4.5), (float)(j * -1.25 + 4.5), 0), Quaternion.identity) ;
 					break;
 				case TileType.ChestXn:
-					Instantiate(Resources.Load(ChestXn), new Vector3((float)(i * 1.25 - 4.5), (float)(j * -1.25 + 4.5), 0), new Vector3(0, 0, 0));
+					Instantiate(Resources.Load("ChestXn"), new Vector3((float)(i * 1.25 - 4.5), (float)(j * -1.25 + 4.5), 0), Quaternion.identity) ;
 					break;
 				case TileType.ChestZp:
-					Instantiate(Resources.Load(ChestZp), new Vector3((float)(i * 1.25 - 4.5), (float)(j * -1.25 + 4.5), 0), new Vector3(0, 0, 0));
+					Instantiate(Resources.Load("ChestZp"), new Vector3((float)(i * 1.25 - 4.5), (float)(j * -1.25 + 4.5), 0), Quaternion.identity) ;
 					break;
 				case TileType.ChestZn:
-					Instantiate(Resources.Load(ChestZn), new Vector3((float)(i * 1.25 - 4.5), (float)(j * -1.25 + 4.5), 0), new Vector3(0, 0, 0));
+					Instantiate(Resources.Load("ChestZn"), new Vector3((float)(i * 1.25 - 4.5), (float)(j * -1.25 + 4.5), 0), Quaternion.identity) ;
 					break;
 				case TileType.Pillar:
-					Instantiate(Resources.Load(Pillar), new Vector3((float)(i * 1.25 - 4.5), (float)(j * -1.25 + 4.5), 0), new Vector3(0, 0, 0));
+					Instantiate(Resources.Load("Pillar"), new Vector3((float)(i * 1.25 - 4.5), (float)(j * -1.25 + 4.5), 0), Quaternion.identity) ;
 					break;
 				case TileType.PistonXp:
-					Instantiate(Resources.Load(PistonXp), new Vector3((float)(i * 1.25 - 4.5), (float)(j * -1.25 + 4.5), 0), new Vector3(0, 0, 0));
+					Instantiate(Resources.Load("PistonXp"), new Vector3((float)(i * 1.25 - 4.5), (float)(j * -1.25 + 4.5), 0), Quaternion.identity) ;
 					break;
 				case TileType.PistonXn:
-					Instantiate(Resources.Load(PistonXn), new Vector3((float)(i * 1.25 - 4.5), (float)(j * -1.25 + 4.5), 0), new Vector3(0, 0, 0));
+					Instantiate(Resources.Load("PistonXn"), new Vector3((float)(i * 1.25 - 4.5), (float)(j * -1.25 + 4.5), 0), Quaternion.identity) ;
 					break;
 				case TileType.PistonZp:
-					Instantiate(Resources.Load(PistonZp), new Vector3((float)(i * 1.25 - 4.5), (float)(j * -1.25 + 4.5), 0), new Vector3(0, 0, 0));
+					Instantiate(Resources.Load("PistonZp"), new Vector3((float)(i * 1.25 - 4.5), (float)(j * -1.25 + 4.5), 0), Quaternion.identity) ;
 					break;
 				case TileType.PistonZn:
-					Instantiate(Resources.Load(PistonZn), new Vector3((float)(i * 1.25 - 4.5), (float)(j * -1.25 + 4.5), 0), new Vector3(0, 0, 0));
+					Instantiate(Resources.Load("PistonZn"), new Vector3((float)(i * 1.25 - 4.5), (float)(j * -1.25 + 4.5), 0), Quaternion.identity) ;
 					break;
 				case TileType.Spikes:
-					Instantiate(Resources.Load(Spikes), new Vector3((float)(i * 1.25 - 4.5), (float)(j * -1.25 + 4.5), 0), new Vector3(0, 0, 0));
+					Instantiate(Resources.Load("Spikes"), new Vector3((float)(i * 1.25 - 4.5), (float)(j * -1.25 + 4.5), 0), Quaternion.identity) ;
 					break;
 				case TileType.SwitchXp:
-					Instantiate(Resources.Load(SwitchXp), new Vector3((float)(i * 1.25 - 4.5), (float)(j * -1.25 + 4.5), 0), new Vector3(0, 0, 0));
+					Instantiate(Resources.Load("SwitchXp"), new Vector3((float)(i * 1.25 - 4.5), (float)(j * -1.25 + 4.5), 0), Quaternion.identity) ;
 					break;
 				case TileType.SwitchXn:
-					Instantiate(Resources.Load(SwitchXn), new Vector3((float)(i * 1.25 - 4.5), (float)(j * -1.25 + 4.5), 0), new Vector3(0, 0, 0));
+					Instantiate(Resources.Load("SwitchXn"), new Vector3((float)(i * 1.25 - 4.5), (float)(j * -1.25 + 4.5), 0), Quaternion.identity) ;
 					break;
 				case TileType.SwitchZp:
-					Instantiate(Resources.Load(SwitchZp), new Vector3((float)(i * 1.25 - 4.5), (float)(j * -1.25 + 4.5), 0), new Vector3(0, 0, 0));
+					Instantiate(Resources.Load("SwitchZp"), new Vector3((float)(i * 1.25 - 4.5), (float)(j * -1.25 + 4.5), 0), Quaternion.identity) ;
 					break;
 				case TileType.SwitchZn:
-					Instantiate(Resources.Load(SwitchZn), new Vector3((float)(i * 1.25 - 4.5), (float)(j * -1.25 + 4.5), 0), new Vector3(0, 0, 0));
+					Instantiate(Resources.Load("SwitchZn"), new Vector3((float)(i * 1.25 - 4.5), (float)(j * -1.25 + 4.5), 0), Quaternion.identity) ;
 					break;
 				case TileType.SwitchYp:
-					Instantiate(Resources.Load(SwitchYp), new Vector3((float)(i * 1.25 - 4.5), (float)(j * -1.25 + 4.5), 0), new Vector3(0, 0, 0));
+					Instantiate(Resources.Load("SwitchYp"), new Vector3((float)(i * 1.25 - 4.5), (float)(j * -1.25 + 4.5), 0), Quaternion.identity) ;
 					break;
 				case TileType.TheBigSpike:
-					Instantiate(Resources.Load(TheBigSpike), new Vector3((float)(i * 1.25 - 4.5), (float)(j * -1.25 + 4.5), 0), new Vector3(0, 0, 0));
+					Instantiate(Resources.Load("TheBigSpike"), new Vector3((float)(i * 1.25 - 4.5), (float)(j * -1.25 + 4.5), 0), Quaternion.identity) ;
 					break;
 				case TileType.NullObj:
 					break;
@@ -112,9 +96,6 @@ public class RoomData : MonoBehaviour {
 			}
 		}
 	}
-}
-=======
-
 	void LoadRoom0 () {
 		// Doors @ B, T
 		int RoomNum = 0;
@@ -469,5 +450,3 @@ public class RoomData : MonoBehaviour {
 		layout[7, 7] = TileType.Pillar;
 	}
 }
-
->>>>>>> Stashed changes
