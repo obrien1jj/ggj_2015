@@ -22,6 +22,19 @@ public class HeroCharacter : Character
 
 	protected Queue<WayPoint> wayPoints = new Queue<WayPoint>();
 
+	override protected bool moving 
+	{ 
+		get { return _moving; }
+		set {
+			_moving = value;
+			if (moving == false && currWaypoint != null)
+			{
+				Destroy (currWaypoint.marker);
+				currWaypoint = null;
+			}
+
+		}
+	}
 
 	override protected void OnDestroy()
 	{
@@ -45,11 +58,11 @@ public class HeroCharacter : Character
 			RaycastHit hit;
 			if ( Physics.Raycast(ray, out hit, 50, 1<<9) ) // && !UIManager.instance.DidAnyPointerHitUI())
 			{
-             				int num = 0;
+             	int num = 0;
 				if (currWaypoint != null)
 					num = currWaypoint.count;
 				num++;
-				if (num < 9)
+				if (num <= 9)
 				{
 					GameObject waypointMarker = Instantiate(GameManager.Instance.wayPointMarker) as GameObject;
 					waypointMarker.transform.position = hit.point;
@@ -63,10 +76,11 @@ public class HeroCharacter : Character
 			}	
 		}
 
-		if (wayPoints.Count > 0)
+		if ( !moving && !GameManager.Instance.actionMode )
 		{
-			if ( !moving && !GameManager.Instance.actionMode )
+			if (wayPoints.Count > 0)
 			{
+
 				if (currWaypoint != null && !wayPoints.Contains(currWaypoint) )
 				{
 					Destroy(currWaypoint.marker); //remove it from the scene
@@ -74,12 +88,19 @@ public class HeroCharacter : Character
 				currWaypoint = wayPoints.Dequeue();
 				MoveTo(currWaypoint.pos);
 				moving = true;
+				GameManager.Instance.disableActionMode = true;
+			}
+			else
+			{
+				if ( currWaypoint != null )
+				{
+					Destroy(currWaypoint.marker); //remove it from the scene
+					currWaypoint = null;
+				}
+				GameManager.Instance.disableActionMode = false;
 			}
 		}
-		else
-		{
-			currWaypoint = null;
-		}
+
 		
 	}
 

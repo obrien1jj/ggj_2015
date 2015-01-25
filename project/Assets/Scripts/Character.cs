@@ -11,7 +11,12 @@ public class Character : MonoBehaviour
 	protected AnimatorStateInfo nst;
 
 	protected Vector3 targetLocation;
-	protected bool moving;
+	protected bool _moving;
+	virtual protected bool moving 
+	{ 
+		get { return _moving; }
+		set { _moving = value; }
+	}
 	private Vector3 velocity;
 	public float speed;
 

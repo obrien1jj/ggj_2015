@@ -39,11 +39,14 @@ public class GameManager : MonoBehaviour {
 		}
 	}
 
+	public bool disableActionMode { get; set; }
+
 	[SerializeField] protected GameObject _wayPointMarker;
 	public GameObject wayPointMarker { get { return _wayPointMarker; }  }
 
 	protected void Update () {
-		actionMode = Input.GetKey(KeyCode.Space);
+		if (!disableActionMode)
+			actionMode = Input.GetKey(KeyCode.Space);
 		
 	}
 
