@@ -25,11 +25,7 @@ public class RoomData : MonoBehaviour {
 	void Start () {
 		layout[0, 0] = test;
 		print (layout[0,0]);
-
-		foreach (Tile_Type element in layout) {
-			trap_list.Add(element);
-		}
-
+	
 	}
 	
 	// Update is called once per frame
