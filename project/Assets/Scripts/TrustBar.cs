@@ -5,7 +5,7 @@ public class TrustBar : MonoBehaviour
 {
 	public tk2dClippedSprite clippedSpriteBar; 
 	
-	private float Value = .5f;
+	private float Value = 1;
 	
 	// Use this for initialization
 	void Start ()
