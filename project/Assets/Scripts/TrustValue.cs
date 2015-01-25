@@ -44,5 +44,8 @@ public class TrustValue : MonoBehaviour {
 		if (trust <= 100)
 			trust += dTrustVal;
 		TrustBar.Instance.gameObject.GetComponent<TrustBar>().updateBar ((float)trust/100);
+		if (trust <= 0) {
+			this.GetComponent<OnDeath>().Do_Stuff();
+				}
 	}
 }
