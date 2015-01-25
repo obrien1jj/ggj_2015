@@ -6,7 +6,8 @@ public class HeroCharacter : Character
 {
 	public class WayPoint
 	{
-		public WayPoint(Vector3 loc, GameObject mark = null, int num = 0)
+		public WayPoint(Vector3 loc, GameObject mark, int num)
+		//public WayPoint(Vector3 loc, GameObject mark = null, int num = 0)
 		{
 			pos = loc;
 			marker = mark;
@@ -46,7 +47,6 @@ public class HeroCharacter : Character
 
 		base.OnDestroy();
 	}
-
 
 	// Update is called once per frame
 	override protected void Update () {

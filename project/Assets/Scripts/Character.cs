@@ -128,4 +128,5 @@ public class Character : MonoBehaviour
 		shadow.transform.position = new Vector3(controllerXfrm.position.x, 0.5f, controllerXfrm.position.z);
 
 	}
+
 }
