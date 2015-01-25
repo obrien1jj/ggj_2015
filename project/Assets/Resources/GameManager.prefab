@@ -38,9 +38,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7e171985e7592145a8bd91b49d606b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  heroPortrait: {fileID: 0}
+  heroNameText: {fileID: 0}
+  currHeroData:
+    name: 
+    skin: {fileID: 0}
+    spriteID: 0
+  heroMeshRenderer: {fileID: 0}
   actionModeTintMaterial: {fileID: 2100000, guid: 88fa8811954171c439b750d3d6741d84,
     type: 2}
   _wayPointMarker: {fileID: 100000, guid: 91f6494eba8d53140a3d8b06022c6464, type: 2}
+  heroes:
+  - name: Andy
+    skin: {fileID: 2100000, guid: 9f48c4e8069796747846da5fe10b8e5e, type: 2}
+    spriteID: 2
+  - name: Damzel
+    skin: {fileID: 2100000, guid: ae590b097672a3946a2ec0c707511358, type: 2}
+    spriteID: 1
+  - name: Eli
+    skin: {fileID: 2100000, guid: 0c44b9038ac179743876f5dbb394b922, type: 2}
+    spriteID: 6
+  - name: Fergus
+    skin: {fileID: 2100000, guid: 270ce2543c8707a49904f5df2a0bfa31, type: 2}
+    spriteID: 3
+  - name: Kathy
+    skin: {fileID: 2100000, guid: 8bb83b46578f71f40aec800ca507cbff, type: 2}
+    spriteID: 5
+  - name: Ritchie
+    skin: {fileID: 2100000, guid: 60f69c39e391b0e44b07edc5acfc9021, type: 2}
+    spriteID: 7
+  - name: Saanvi
+    skin: {fileID: 2100000, guid: 8d2d9672a10fb4e49bdf02f4879981e4, type: 2}
+    spriteID: 0
+  - name: Val
+    skin: {fileID: 2100000, guid: a211f2cb229292f4fb5869671bcbf2bf, type: 2}
+    spriteID: 4
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
