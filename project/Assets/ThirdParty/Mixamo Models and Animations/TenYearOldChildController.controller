@@ -1250,7 +1250,7 @@ BlendTree:
   - m_Motion: {fileID: 7400000, guid: 79beb7602b36f324c8039b07efe54119, type: 3}
     m_Threshold: 0
     m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
+    m_TimeScale: 2
     m_CycleOffset: 0
     m_IsAnim: 1
     m_Mirror: 0
@@ -3724,7 +3724,7 @@ BlendTree:
   - m_Motion: {fileID: 7400000, guid: 79beb7602b36f324c8039b07efe54119, type: 3}
     m_Threshold: 0
     m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
+    m_TimeScale: 2
     m_CycleOffset: 0
     m_IsAnim: 1
     m_Mirror: 0
@@ -21449,7 +21449,7 @@ BlendTree:
   - m_Motion: {fileID: 7400000, guid: 79beb7602b36f324c8039b07efe54119, type: 3}
     m_Threshold: 0
     m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
+    m_TimeScale: 2
     m_CycleOffset: 0
     m_IsAnim: 1
     m_Mirror: 0
@@ -27384,7 +27384,7 @@ BlendTree:
   - m_Motion: {fileID: 7400000, guid: 79beb7602b36f324c8039b07efe54119, type: 3}
     m_Threshold: 0
     m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
+    m_TimeScale: 2
     m_CycleOffset: 0
     m_IsAnim: 1
     m_Mirror: 0
