@@ -5,7 +5,7 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 3
   m_Component:
   - 4: {fileID: 400000}
   - 114: {fileID: 11400000}
@@ -15,7 +15,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &400000
 Transform:
   m_ObjectHideFlags: 1
@@ -35,9 +35,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 1}
   m_Name: 
-  m_EditorClassIdentifier: 
   version: 3
   materialIdsValid: 1
   needMaterialInstance: 0
@@ -75,7 +74,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 2
-    customColliders: []
     colliderVertices:
     - {x: 0, y: 0, z: 0}
     - {x: .800000012, y: .800000012, z: 1}
@@ -119,7 +117,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 2
-    customColliders: []
     colliderVertices:
     - {x: 0, y: 0, z: 0}
     - {x: .800000012, y: .800000012, z: 1}
@@ -163,7 +160,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 2
-    customColliders: []
     colliderVertices:
     - {x: 0, y: .400000006, z: 0}
     - {x: .800000012, y: .400000006, z: 1}
@@ -207,7 +203,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 3
-    customColliders: []
     colliderVertices:
     - {x: -.800000012, y: .800000012, z: -1}
     - {x: -.800000012, y: .800000012, z: 1}
@@ -259,7 +254,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 3
-    customColliders: []
     colliderVertices:
     - {x: -.800000012, y: .800000012, z: -1}
     - {x: -.800000012, y: .800000012, z: 1}
@@ -311,7 +305,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 3
-    customColliders: []
     colliderVertices:
     - {x: -.800000012, y: .800000012, z: -1}
     - {x: -.800000012, y: .800000012, z: 1}
@@ -366,7 +359,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 2
-    customColliders: []
     colliderVertices:
     - {x: 0, y: -.400000006, z: 0}
     - {x: .800000012, y: .400000006, z: 1}
@@ -410,7 +402,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 3
-    customColliders: []
     colliderVertices:
     - {x: -.800000012, y: 0, z: -1}
     - {x: -.800000012, y: 0, z: 1}
@@ -462,7 +453,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 3
-    customColliders: []
     colliderVertices:
     - {x: -.800000012, y: .800000012, z: -1}
     - {x: -.800000012, y: .800000012, z: 1}
@@ -514,7 +504,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 3
-    customColliders: []
     colliderVertices:
     - {x: -.800000012, y: .800000012, z: -1}
     - {x: -.800000012, y: .800000012, z: 1}
@@ -569,7 +558,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 2
-    customColliders: []
     colliderVertices:
     - {x: -.400000006, y: 0, z: 0}
     - {x: .400000006, y: .800000012, z: 1}
@@ -613,7 +601,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 3
-    customColliders: []
     colliderVertices:
     - {x: -.800000012, y: .800000012, z: -1}
     - {x: -.800000012, y: .800000012, z: 1}
@@ -665,7 +652,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 3
-    customColliders: []
     colliderVertices:
     - {x: -.800000012, y: .800000012, z: -1}
     - {x: -.800000012, y: .800000012, z: 1}
@@ -720,7 +706,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 3
-    customColliders: []
     colliderVertices:
     - {x: -.800000012, y: .800000012, z: -1}
     - {x: -.800000012, y: .800000012, z: 1}
@@ -772,7 +757,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 3
-    customColliders: []
     colliderVertices:
     - {x: -.800000012, y: .800000012, z: -1}
     - {x: -.800000012, y: .800000012, z: 1}
@@ -827,7 +811,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 2
-    customColliders: []
     colliderVertices:
     - {x: 0, y: 0, z: 0}
     - {x: .800000012, y: .800000012, z: 1}
@@ -871,7 +854,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 2
-    customColliders: []
     colliderVertices:
     - {x: 0, y: 0, z: 0}
     - {x: .800000012, y: .800000012, z: 1}
@@ -915,7 +897,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 2
-    customColliders: []
     colliderVertices:
     - {x: 0, y: 0, z: 0}
     - {x: .800000012, y: .800000012, z: 1}
@@ -959,7 +940,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 2
-    customColliders: []
     colliderVertices:
     - {x: 0, y: 0, z: 0}
     - {x: .800000012, y: .800000012, z: 1}
@@ -1003,7 +983,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 2
-    customColliders: []
     colliderVertices:
     - {x: 0, y: 0, z: 0}
     - {x: .800000012, y: .800000012, z: 1}
@@ -1047,7 +1026,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 2
-    customColliders: []
     colliderVertices:
     - {x: 0, y: 0, z: 0}
     - {x: .800000012, y: .800000012, z: 1}
@@ -1091,7 +1069,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 2
-    customColliders: []
     colliderVertices:
     - {x: 0, y: 0, z: 0}
     - {x: .800000012, y: .800000012, z: 1}
@@ -1135,7 +1112,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 2
-    customColliders: []
     colliderVertices:
     - {x: 0, y: 0, z: 0}
     - {x: .800000012, y: .800000012, z: 1}
@@ -1179,7 +1155,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 2
-    customColliders: []
     colliderVertices:
     - {x: 0, y: 0, z: 0}
     - {x: .800000012, y: .800000012, z: 1}
@@ -1223,7 +1198,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 2
-    customColliders: []
     colliderVertices:
     - {x: 0, y: 0, z: 0}
     - {x: .800000012, y: .800000012, z: 1}
@@ -1267,7 +1241,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 2
-    customColliders: []
     colliderVertices:
     - {x: 0, y: 0, z: 0}
     - {x: .800000012, y: .800000012, z: 1}
@@ -1311,7 +1284,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 2
-    customColliders: []
     colliderVertices:
     - {x: 0, y: 0, z: 0}
     - {x: .800000012, y: .800000012, z: 1}
@@ -1355,7 +1327,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 2
-    customColliders: []
     colliderVertices:
     - {x: 0, y: 0, z: 0}
     - {x: .800000012, y: .800000012, z: 1}
@@ -1399,7 +1370,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 2
-    customColliders: []
     colliderVertices:
     - {x: 0, y: 0, z: 0}
     - {x: .800000012, y: .800000012, z: 1}
@@ -1443,7 +1413,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 0
-    customColliders: []
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
@@ -1485,7 +1454,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 0
-    customColliders: []
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
@@ -1527,7 +1495,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 0
-    customColliders: []
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
@@ -1569,7 +1536,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 0
-    customColliders: []
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
@@ -1611,7 +1577,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 0
-    customColliders: []
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
@@ -1653,7 +1618,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 0
-    customColliders: []
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
@@ -1695,7 +1659,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 0
-    customColliders: []
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
@@ -1737,7 +1700,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 0
-    customColliders: []
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
@@ -1779,7 +1741,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 0
-    customColliders: []
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
@@ -1821,7 +1782,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 0
-    customColliders: []
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
@@ -1863,7 +1823,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 0
-    customColliders: []
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
@@ -1905,7 +1864,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 0
-    customColliders: []
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
@@ -1947,7 +1905,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 0
-    customColliders: []
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
@@ -1989,7 +1946,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 0
-    customColliders: []
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
@@ -2031,7 +1987,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 0
-    customColliders: []
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
@@ -2073,7 +2028,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 0
-    customColliders: []
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
@@ -2115,7 +2069,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 0
-    customColliders: []
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
@@ -2157,7 +2110,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 0
-    customColliders: []
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
@@ -2199,7 +2151,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 0
-    customColliders: []
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
@@ -2241,7 +2192,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 0
-    customColliders: []
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
@@ -2283,7 +2233,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 0
-    customColliders: []
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
@@ -2325,7 +2274,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 0
-    customColliders: []
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
@@ -2367,7 +2315,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 0
-    customColliders: []
     colliderVertices: []
     colliderIndicesFwd: 
     colliderIndicesBack: 
@@ -2409,7 +2356,6 @@ MonoBehaviour:
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 3
-    customColliders: []
     colliderVertices:
     - {x: -.800000012, y: .800000012, z: -1}
     - {x: -.800000012, y: .800000012, z: 1}
@@ -2436,9 +2382,8 @@ MonoBehaviour:
   materials:
   - {fileID: 2100000, guid: 6ba0cc53dadfc474aadeffea5f241db6, type: 2}
   textures:
-  - {fileID: 2800000, guid: e296260733c7bc1469716da4f48bd888, type: 3}
+  - {fileID: 2800000, guid: e296260733c7bc1469716da4f48bd888, type: 1}
   pngTextures: []
-  materialPngTextureId: 00000000
   textureFilterMode: 1
   textureMipMaps: 0
   allowMultipleAtlases: 0
@@ -2448,7 +2393,7 @@ MonoBehaviour:
   loadable: 0
   invOrthoSize: 2
   halfTargetHeight: 10
-  buildKey: 178896401
+  buildKey: 473255449
   dataGuid: f5e64bab9902aaa4593a2652b8552744
   managedSpriteCollection: 0
   hasPlatformData: 0
