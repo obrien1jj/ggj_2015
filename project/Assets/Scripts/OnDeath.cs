@@ -14,9 +14,6 @@ public class OnDeath : MonoBehaviour {
 	}
 	
 	public void Do_Stuff(){
-		//play some dialogues
-
-		this.GetComponent<Personality>().play_dialogue(this.GetComponent<Personality>().run_out_of_trust);
 		//make hero run off into a random adjacent room
 		//prevent action mode from activating
 		//destroy the hero object

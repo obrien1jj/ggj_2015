@@ -41,11 +41,26 @@ public class TrustValue : MonoBehaviour {
 	}
 
 	public void ChangeTrust (int dTrustVal) {
-		if (trust <= 100)
+		//if it's healing
+		if (dTrustVal > 0) {
+			this.GetComponent<Personality>().play_dialogue(this.GetComponent<Personality>().opens_treasure_chest);
 			trust += dTrustVal;
+			trust = Mathf.Min (trust, 100);
+		}
+		//if it's hurting
+		else{
+
+			trust += dTrustVal;
+			trust = Mathf.Max (trust, 0);
+			if (trust > 0){
+				this.GetComponent<Personality>().play_dialogue(this.GetComponent<Personality>().hit_by_trap);
+			}
+		}
 		TrustBar.Instance.gameObject.GetComponent<TrustBar>().updateBar ((float)trust/100);
+		//if all trust has been lost
 		if (trust <= 0) {
+			this.GetComponent<Personality>().play_dialogue(this.GetComponent<Personality>().run_out_of_trust);
 			this.GetComponent<OnDeath>().Do_Stuff();
-				}
+		}
 	}
 }

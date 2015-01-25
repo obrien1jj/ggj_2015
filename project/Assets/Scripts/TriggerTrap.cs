@@ -38,10 +38,6 @@ public class TriggerTrap : MonoBehaviour {
 			//print ("I am active");
 			if (other.gameObject.CompareTag ("Hero")) {
 
-				//play audio
-				GameObject audio_object = GameObject.FindGameObjectWithTag("Hero");
-				audio_object.GetComponent<Personality>().play_dialogue(audio_object.GetComponent<Personality>().hit_by_trap);
-
 				//damage Trust
 				other.gameObject.GetComponent<TrustValue> ().ChangeTrust (dTrust);
 				//print (other.gameObject.GetComponent<TrustValue> ().trust);
