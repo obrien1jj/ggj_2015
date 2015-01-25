@@ -56,8 +56,6 @@ public class TriggerTrap : MonoBehaviour {
 				}
 				else
 					IsActive = false;
-
-
 			}
 		}
 	}

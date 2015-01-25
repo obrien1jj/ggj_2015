@@ -1,43 +1,25 @@
 fileFormatVersion: 2
-guid: 8920d81ad0dcc05419e9de4a49669621
+guid: 6cfbd87db776d474da6b5ed59fa419c2
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
-    100000: group
-    100002: group1
-    100004: pasted__pCylinder1
-    100006: pasted__pCylinder3
-    100008: pasted__pCylinder3 1
-    100010: pCylinder1
-    100012: pCylinder2
-    100014: pCylinder3
-    100016: //RootNode
-    100018: transform1
-    100020: transform2
-    100022: transform3
-    100024: transform4
-    400000: group
-    400002: group1
-    400004: pasted__pCylinder1
-    400006: pasted__pCylinder3
-    400008: pasted__pCylinder3 1
-    400010: pCylinder1
-    400012: pCylinder2
-    400014: pCylinder3
-    400016: //RootNode
-    400018: transform1
-    400020: transform2
-    400022: transform3
-    400024: transform4
-    2300000: pasted__pCylinder3
-    2300002: pCylinder2
-    3300000: pasted__pCylinder3
-    3300002: pCylinder2
-    4300000: pCylinder2
-    4300002: pasted__pCylinder3
+    100000: //RootNode
+    100002: pCylinder1
+    100004: pCylinder2
+    100006: pCylinder3
+    100008: transform1
+    100010: transform2
+    400000: //RootNode
+    400002: pCylinder1
+    400004: pCylinder2
+    400006: pCylinder3
+    400008: transform1
+    400010: transform2
+    2300000: pCylinder3
+    3300000: pCylinder3
+    4300000: pCylinder3
     7400000: Take 001
     9500000: //RootNode
-    11100000: //RootNode
   materials:
     importMaterials: 1
     materialName: 0
@@ -88,6 +70,6 @@ ModelImporter:
     feetSpacing: 0
     rootMotionBoneName: 
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 1
+  animationType: 2
   additionalBone: 0
   userData: 
