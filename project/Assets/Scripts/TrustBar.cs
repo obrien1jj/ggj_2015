@@ -3,6 +3,21 @@ using System.Collections;
 
 public class TrustBar : MonoBehaviour
 {
+	private static TrustBar instance = null;
+	public static TrustBar Instance {
+		get {
+			if (instance == null)
+			{
+				instance = (TrustBar)FindObjectOfType(typeof(TrustBar));
+				if (instance == null)
+				{
+					Debug.LogError("CREATING A NEW TRUST BAR -- THIS IS A PROBLEM");
+					instance = (new GameObject("GameManager")).AddComponent<TrustBar>();
+				}
+			}
+			return instance;
+		}
+	}
 	public tk2dClippedSprite clippedSpriteBar; 
 	
 	private float Value = 1;

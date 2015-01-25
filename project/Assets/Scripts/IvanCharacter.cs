@@ -3,8 +3,6 @@ using System.Collections;
 
 public class IvanCharacter : Character 
 {
-
-
 	// Update is called once per frame
 	override protected void Update () {
 		base.Update();
@@ -12,11 +10,12 @@ public class IvanCharacter : Character
 		if (!GameManager.Instance.actionMode && Input.GetKeyDown(KeyCode.Mouse0))
 		{
 			Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+			Debug.Log (ray);
 
 			RaycastHit hit;
 			if ( Physics.Raycast(ray, out hit, 50, 1<<9) ) // && !UIManager.instance.DidAnyPointerHitUI())
 			{
-				
+				Debug.Log (hit.point);
 //				playerControls.PlaceMarker += PlaceDestinationMarker;
 				MoveTo(hit.point);
 				// Place a marker to indicate goal
