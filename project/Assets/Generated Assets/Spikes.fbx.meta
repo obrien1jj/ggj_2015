@@ -731,7 +731,841 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: group
+        weight: 1
+      - path: group/pasted__pCone1
+        weight: 1
+      - path: group1
+        weight: 1
+      - path: group1/pasted__pCone1 1
+        weight: 1
+      - path: group1/pasted__pCone1 1/transform3
+        weight: 1
+      - path: group2
+        weight: 1
+      - path: group3
+        weight: 1
+      - path: group3/pasted__pCone1 2
+        weight: 1
+      - path: group4
+        weight: 1
+      - path: group4/pasted__pCone1 3
+        weight: 1
+      - path: group4/pasted__pCone1 3/transform5
+        weight: 1
+      - path: group5
+        weight: 1
+      - path: group5/pasted__group4
+        weight: 1
+      - path: group5/pasted__group4/pasted__pasted__pCone1
+        weight: 1
+      - path: group6
+        weight: 1
+      - path: group6/pasted__group4 1
+        weight: 1
+      - path: group6/pasted__group4 1/pasted__pasted__pCone1 1
+        weight: 1
+      - path: group6/pasted__group4 1/pasted__pasted__pCone1 1/transform7
+        weight: 1
+      - path: group7
+        weight: 1
+      - path: group7/pasted__group6
+        weight: 1
+      - path: group7/pasted__group6/pasted__pasted__group4 1
+        weight: 1
+      - path: group7/pasted__group6/pasted__pasted__group4 1/pasted__pasted__pasted__pCone1
+          1
+        weight: 1
+      - path: group8
+        weight: 1
+      - path: group8/pasted__group6 1
+        weight: 1
+      - path: group8/pasted__group6 1/pasted__pasted__group4 2
+        weight: 1
+      - path: group8/pasted__group6 1/pasted__pasted__group4 2/pasted__pasted__pasted__pCone1
+          2
+        weight: 1
+      - path: group8/pasted__group6 1/pasted__pasted__group4 2/pasted__pasted__pasted__pCone1
+          2/transform9
+        weight: 1
+      - path: group9
+        weight: 1
+      - path: group9/pasted__group8 2
+        weight: 1
+      - path: group9/pasted__group8 2/pasted__pasted__group6 2
+        weight: 1
+      - path: group9/pasted__group8 2/pasted__pasted__group6 2/pasted__pasted__pasted__group4
+          3
+        weight: 1
+      - path: group9/pasted__group8 2/pasted__pasted__group6 2/pasted__pasted__pasted__group4
+          3/pasted__pasted__pasted__pasted__pCone1 2
+        weight: 1
+      - path: group10
+        weight: 1
+      - path: group10/pasted__group8
+        weight: 1
+      - path: group10/pasted__group8/pasted__pasted__group6
+        weight: 1
+      - path: group10/pasted__group8/pasted__pasted__group6/pasted__pasted__pasted__group4
+        weight: 1
+      - path: group11
+        weight: 1
+      - path: group11/pasted__group8 1
+        weight: 1
+      - path: group11/pasted__group8 1/pasted__pasted__group6 1
+        weight: 1
+      - path: group11/pasted__group8 1/pasted__pasted__group6 1/pasted__pasted__pasted__group4
+          1
+        weight: 1
+      - path: group11/pasted__group8 1/pasted__pasted__group6 1/pasted__pasted__pasted__group4
+          1/pasted__pasted__pasted__pasted__pCone1
+        weight: 1
+      - path: group11/pasted__group8 1/pasted__pasted__group6 1/pasted__pasted__pasted__group4
+          1/pasted__pasted__pasted__pasted__pCone1/transform11
+        weight: 1
+      - path: group12
+        weight: 1
+      - path: group12/pasted__group11
+        weight: 1
+      - path: group12/pasted__group11/pasted__pasted__group8
+        weight: 1
+      - path: group12/pasted__group11/pasted__pasted__group8/pasted__pasted__pasted__group6
+        weight: 1
+      - path: group12/pasted__group11/pasted__pasted__group8/pasted__pasted__pasted__group6/pasted__pasted__pasted__pasted__group4
+        weight: 1
+      - path: group12/pasted__group11/pasted__pasted__group8/pasted__pasted__pasted__group6/pasted__pasted__pasted__pasted__group4/pasted__pasted__pasted__pasted__pasted__pCone1
+        weight: 1
+      - path: group13
+        weight: 1
+      - path: group13/pasted__group5
+        weight: 1
+      - path: group13/pasted__group5/pasted__pasted__group4
+        weight: 1
+      - path: group13/pasted__group5/pasted__pasted__group4/pasted__pasted__pasted__pCone1
+        weight: 1
+      - path: group13/pasted__group5/pasted__pasted__group4/pasted__pasted__pasted__pCone1/transform13
+        weight: 1
+      - path: group14
+        weight: 1
+      - path: group14/pasted__group13
+        weight: 1
+      - path: group14/pasted__group13/pasted__pasted__group5
+        weight: 1
+      - path: group14/pasted__group13/pasted__pasted__group5/pasted__pasted__pasted__group4
+          2
+        weight: 1
+      - path: group14/pasted__group13/pasted__pasted__group5/pasted__pasted__pasted__group4
+          2/pasted__pasted__pasted__pasted__pCone1 1
+        weight: 1
+      - path: group15
+        weight: 1
+      - path: group15/pasted__group14
+        weight: 1
+      - path: group15/pasted__group14/pasted__pasted__group13
+        weight: 1
+      - path: group15/pasted__group14/pasted__pasted__group13/pasted__pasted__pasted__group5
+        weight: 1
+      - path: group15/pasted__group14/pasted__pasted__group13/pasted__pasted__pasted__group5/pasted__pasted__pasted__pasted__group4
+          1
+        weight: 1
+      - path: group15/pasted__group14/pasted__pasted__group13/pasted__pasted__pasted__group5/pasted__pasted__pasted__pasted__group4
+          1/pasted__pasted__pasted__pasted__pasted__pCone1 1
+        weight: 1
+      - path: group15/pasted__group14/pasted__pasted__group13/pasted__pasted__pasted__group5/pasted__pasted__pasted__pasted__group4
+          1/pasted__pasted__pasted__pasted__pasted__pCone1 1/transform16
+        weight: 1
+      - path: group16
+        weight: 1
+      - path: group16/pasted__group15
+        weight: 1
+      - path: group16/pasted__group15/pasted__pasted__group14
+        weight: 1
+      - path: group16/pasted__group15/pasted__pasted__group14/pasted__pasted__pasted__group13
+        weight: 1
+      - path: group16/pasted__group15/pasted__pasted__group14/pasted__pasted__pasted__group13/pasted__pasted__pasted__pasted__group5
+        weight: 1
+      - path: group16/pasted__group15/pasted__pasted__group14/pasted__pasted__pasted__group13/pasted__pasted__pasted__pasted__group5/pasted__pasted__pasted__pasted__pasted__group4
+        weight: 1
+      - path: group16/pasted__group15/pasted__pasted__group14/pasted__pasted__pasted__group13/pasted__pasted__pasted__pasted__group5/pasted__pasted__pasted__pasted__pasted__group4/pasted__pasted__pasted__pasted__pasted__pasted__pCone1
+        weight: 1
+      - path: group16/pasted__group15/pasted__pasted__group14/pasted__pasted__pasted__group13/pasted__pasted__pasted__pasted__group5/pasted__pasted__pasted__pasted__pasted__group4/pasted__pasted__pasted__pasted__pasted__pasted__pCone1/transform15
+        weight: 1
+      - path: group17
+        weight: 1
+      - path: group17/pasted__group15 1
+        weight: 1
+      - path: group17/pasted__group15 1/pasted__pasted__group14 1
+        weight: 1
+      - path: group17/pasted__group15 1/pasted__pasted__group14 1/pasted__pasted__pasted__group13
+          1
+        weight: 1
+      - path: group17/pasted__group15 1/pasted__pasted__group14 1/pasted__pasted__pasted__group13
+          1/pasted__pasted__pasted__pasted__group5 1
+        weight: 1
+      - path: group17/pasted__group15 1/pasted__pasted__group14 1/pasted__pasted__pasted__group13
+          1/pasted__pasted__pasted__pasted__group5 1/pasted__pasted__pasted__pasted__pasted__group4
+          1
+        weight: 1
+      - path: group17/pasted__group15 1/pasted__pasted__group14 1/pasted__pasted__pasted__group13
+          1/pasted__pasted__pasted__pasted__group5 1/pasted__pasted__pasted__pasted__pasted__group4
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pCone1 1
+        weight: 1
+      - path: group18
+        weight: 1
+      - path: group18/pasted__group15 2
+        weight: 1
+      - path: group18/pasted__group15 2/pasted__pasted__group14 2
+        weight: 1
+      - path: group18/pasted__group15 2/pasted__pasted__group14 2/pasted__pasted__pasted__group13
+          2
+        weight: 1
+      - path: group18/pasted__group15 2/pasted__pasted__group14 2/pasted__pasted__pasted__group13
+          2/pasted__pasted__pasted__pasted__group5 2
+        weight: 1
+      - path: group18/pasted__group15 2/pasted__pasted__group14 2/pasted__pasted__pasted__group13
+          2/pasted__pasted__pasted__pasted__group5 2/pasted__pasted__pasted__pasted__pasted__group4
+          2
+        weight: 1
+      - path: group18/pasted__group15 2/pasted__pasted__group14 2/pasted__pasted__pasted__group13
+          2/pasted__pasted__pasted__pasted__group5 2/pasted__pasted__pasted__pasted__pasted__group4
+          2/pasted__pasted__pasted__pasted__pasted__pasted__pCone1 2
+        weight: 1
+      - path: group18/pasted__group15 2/pasted__pasted__group14 2/pasted__pasted__pasted__group13
+          2/pasted__pasted__pasted__pasted__group5 2/pasted__pasted__pasted__pasted__pasted__group4
+          2/pasted__pasted__pasted__pasted__pasted__pasted__pCone1 2/transform18
+        weight: 1
+      - path: group19
+        weight: 1
+      - path: group19/pasted__group18
+        weight: 1
+      - path: group19/pasted__group18/pasted__pasted__group15
+        weight: 1
+      - path: group19/pasted__group18/pasted__pasted__group15/pasted__pasted__pasted__group14
+        weight: 1
+      - path: group19/pasted__group18/pasted__pasted__group15/pasted__pasted__pasted__group14/pasted__pasted__pasted__pasted__group13
+        weight: 1
+      - path: group19/pasted__group18/pasted__pasted__group15/pasted__pasted__pasted__group14/pasted__pasted__pasted__pasted__group13/pasted__pasted__pasted__pasted__pasted__group5
+        weight: 1
+      - path: group19/pasted__group18/pasted__pasted__group15/pasted__pasted__pasted__group14/pasted__pasted__pasted__pasted__group13/pasted__pasted__pasted__pasted__pasted__group5/pasted__pasted__pasted__pasted__pasted__pasted__group4
+        weight: 1
+      - path: group19/pasted__group18/pasted__pasted__group15/pasted__pasted__pasted__group14/pasted__pasted__pasted__pasted__group13/pasted__pasted__pasted__pasted__pasted__group5/pasted__pasted__pasted__pasted__pasted__pasted__group4/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pCone1
+        weight: 1
+      - path: group20
+        weight: 1
+      - path: group20/pasted__group18 1
+        weight: 1
+      - path: group20/pasted__group18 1/pasted__pasted__group15 1
+        weight: 1
+      - path: group20/pasted__group18 1/pasted__pasted__group15 1/pasted__pasted__pasted__group14
+          1
+        weight: 1
+      - path: group20/pasted__group18 1/pasted__pasted__group15 1/pasted__pasted__pasted__group14
+          1/pasted__pasted__pasted__pasted__group13 1
+        weight: 1
+      - path: group20/pasted__group18 1/pasted__pasted__group15 1/pasted__pasted__pasted__group14
+          1/pasted__pasted__pasted__pasted__group13 1/pasted__pasted__pasted__pasted__pasted__group5
+          1
+        weight: 1
+      - path: group20/pasted__group18 1/pasted__pasted__group15 1/pasted__pasted__pasted__group14
+          1/pasted__pasted__pasted__pasted__group13 1/pasted__pasted__pasted__pasted__pasted__group5
+          1/pasted__pasted__pasted__pasted__pasted__pasted__group4 1
+        weight: 1
+      - path: group20/pasted__group18 1/pasted__pasted__group15 1/pasted__pasted__pasted__group14
+          1/pasted__pasted__pasted__pasted__group13 1/pasted__pasted__pasted__pasted__pasted__group5
+          1/pasted__pasted__pasted__pasted__pasted__pasted__group4 1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pCone1
+          1
+        weight: 1
+      - path: group20/pasted__group18 1/pasted__pasted__group15 1/pasted__pasted__pasted__group14
+          1/pasted__pasted__pasted__pasted__group13 1/pasted__pasted__pasted__pasted__pasted__group5
+          1/pasted__pasted__pasted__pasted__pasted__pasted__group4 1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pCone1
+          1/transform20
+        weight: 1
+      - path: group21
+        weight: 1
+      - path: group21/pasted__group20
+        weight: 1
+      - path: group21/pasted__group20/pasted__pasted__group18
+        weight: 1
+      - path: group21/pasted__group20/pasted__pasted__group18/pasted__pasted__pasted__group15
+        weight: 1
+      - path: group21/pasted__group20/pasted__pasted__group18/pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__group14
+        weight: 1
+      - path: group21/pasted__group20/pasted__pasted__group18/pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__group14/pasted__pasted__pasted__pasted__pasted__group13
+        weight: 1
+      - path: group21/pasted__group20/pasted__pasted__group18/pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__group14/pasted__pasted__pasted__pasted__pasted__group13/pasted__pasted__pasted__pasted__pasted__pasted__group5
+        weight: 1
+      - path: group21/pasted__group20/pasted__pasted__group18/pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__group14/pasted__pasted__pasted__pasted__pasted__group13/pasted__pasted__pasted__pasted__pasted__pasted__group5/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group4
+        weight: 1
+      - path: group21/pasted__group20/pasted__pasted__group18/pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__group14/pasted__pasted__pasted__pasted__pasted__group13/pasted__pasted__pasted__pasted__pasted__pasted__group5/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group4/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pCone1
+        weight: 1
+      - path: group22
+        weight: 1
+      - path: group22/pasted__group20 1
+        weight: 1
+      - path: group22/pasted__group20 1/pasted__pasted__group18 1
+        weight: 1
+      - path: group22/pasted__group20 1/pasted__pasted__group18 1/pasted__pasted__pasted__group15
+          1
+        weight: 1
+      - path: group22/pasted__group20 1/pasted__pasted__group18 1/pasted__pasted__pasted__group15
+          1/pasted__pasted__pasted__pasted__group14 1
+        weight: 1
+      - path: group22/pasted__group20 1/pasted__pasted__group18 1/pasted__pasted__pasted__group15
+          1/pasted__pasted__pasted__pasted__group14 1/pasted__pasted__pasted__pasted__pasted__group13
+          1
+        weight: 1
+      - path: group22/pasted__group20 1/pasted__pasted__group18 1/pasted__pasted__pasted__group15
+          1/pasted__pasted__pasted__pasted__group14 1/pasted__pasted__pasted__pasted__pasted__group13
+          1/pasted__pasted__pasted__pasted__pasted__pasted__group5 1
+        weight: 1
+      - path: group22/pasted__group20 1/pasted__pasted__group18 1/pasted__pasted__pasted__group15
+          1/pasted__pasted__pasted__pasted__group14 1/pasted__pasted__pasted__pasted__pasted__group13
+          1/pasted__pasted__pasted__pasted__pasted__pasted__group5 1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group4
+          1
+        weight: 1
+      - path: group22/pasted__group20 1/pasted__pasted__group18 1/pasted__pasted__pasted__group15
+          1/pasted__pasted__pasted__pasted__group14 1/pasted__pasted__pasted__pasted__pasted__group13
+          1/pasted__pasted__pasted__pasted__pasted__pasted__group5 1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group4
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pCone1
+          1
+        weight: 1
+      - path: group22/pasted__group20 1/pasted__pasted__group18 1/pasted__pasted__pasted__group15
+          1/pasted__pasted__pasted__pasted__group14 1/pasted__pasted__pasted__pasted__pasted__group13
+          1/pasted__pasted__pasted__pasted__pasted__pasted__group5 1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group4
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pCone1
+          1/transform22
+        weight: 1
+      - path: group23
+        weight: 1
+      - path: group23/pasted__group22
+        weight: 1
+      - path: group23/pasted__group22/pasted__pasted__group20
+        weight: 1
+      - path: group23/pasted__group22/pasted__pasted__group20/pasted__pasted__pasted__group18
+        weight: 1
+      - path: group23/pasted__group22/pasted__pasted__group20/pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__group15
+        weight: 1
+      - path: group23/pasted__group22/pasted__pasted__group20/pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__pasted__group14
+        weight: 1
+      - path: group23/pasted__group22/pasted__pasted__group20/pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__pasted__group14/pasted__pasted__pasted__pasted__pasted__pasted__group13
+        weight: 1
+      - path: group23/pasted__group22/pasted__pasted__group20/pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__pasted__group14/pasted__pasted__pasted__pasted__pasted__pasted__group13/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group5
+        weight: 1
+      - path: group23/pasted__group22/pasted__pasted__group20/pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__pasted__group14/pasted__pasted__pasted__pasted__pasted__pasted__group13/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group5/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group4
+        weight: 1
+      - path: group23/pasted__group22/pasted__pasted__group20/pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__pasted__group14/pasted__pasted__pasted__pasted__pasted__pasted__group13/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group5/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group4/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pCone1
+        weight: 1
+      - path: group24
+        weight: 1
+      - path: group24/pasted__group22 1
+        weight: 1
+      - path: group24/pasted__group22 1/pasted__pasted__group20 1
+        weight: 1
+      - path: group24/pasted__group22 1/pasted__pasted__group20 1/pasted__pasted__pasted__group18
+          1
+        weight: 1
+      - path: group24/pasted__group22 1/pasted__pasted__group20 1/pasted__pasted__pasted__group18
+          1/pasted__pasted__pasted__pasted__group15 1
+        weight: 1
+      - path: group24/pasted__group22 1/pasted__pasted__group20 1/pasted__pasted__pasted__group18
+          1/pasted__pasted__pasted__pasted__group15 1/pasted__pasted__pasted__pasted__pasted__group14
+          1
+        weight: 1
+      - path: group24/pasted__group22 1/pasted__pasted__group20 1/pasted__pasted__pasted__group18
+          1/pasted__pasted__pasted__pasted__group15 1/pasted__pasted__pasted__pasted__pasted__group14
+          1/pasted__pasted__pasted__pasted__pasted__pasted__group13 1
+        weight: 1
+      - path: group24/pasted__group22 1/pasted__pasted__group20 1/pasted__pasted__pasted__group18
+          1/pasted__pasted__pasted__pasted__group15 1/pasted__pasted__pasted__pasted__pasted__group14
+          1/pasted__pasted__pasted__pasted__pasted__pasted__group13 1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group5
+          1
+        weight: 1
+      - path: group24/pasted__group22 1/pasted__pasted__group20 1/pasted__pasted__pasted__group18
+          1/pasted__pasted__pasted__pasted__group15 1/pasted__pasted__pasted__pasted__pasted__group14
+          1/pasted__pasted__pasted__pasted__pasted__pasted__group13 1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group5
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group4
+          1
+        weight: 1
+      - path: group24/pasted__group22 1/pasted__pasted__group20 1/pasted__pasted__pasted__group18
+          1/pasted__pasted__pasted__pasted__group15 1/pasted__pasted__pasted__pasted__pasted__group14
+          1/pasted__pasted__pasted__pasted__pasted__pasted__group13 1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group5
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group4
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pCone1
+          1
+        weight: 1
+      - path: group24/pasted__group22 1/pasted__pasted__group20 1/pasted__pasted__pasted__group18
+          1/pasted__pasted__pasted__pasted__group15 1/pasted__pasted__pasted__pasted__pasted__group14
+          1/pasted__pasted__pasted__pasted__pasted__pasted__group13 1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group5
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group4
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pCone1
+          1/transform24
+        weight: 1
+      - path: group25
+        weight: 1
+      - path: group25/pasted__group24
+        weight: 1
+      - path: group25/pasted__group24/pasted__pasted__group22
+        weight: 1
+      - path: group25/pasted__group24/pasted__pasted__group22/pasted__pasted__pasted__group20
+        weight: 1
+      - path: group25/pasted__group24/pasted__pasted__group22/pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__group18
+        weight: 1
+      - path: group25/pasted__group24/pasted__pasted__group22/pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__group15
+        weight: 1
+      - path: group25/pasted__group24/pasted__pasted__group22/pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__pasted__pasted__group14
+        weight: 1
+      - path: group25/pasted__group24/pasted__pasted__group22/pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__pasted__pasted__group14/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group13
+        weight: 1
+      - path: group25/pasted__group24/pasted__pasted__group22/pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__pasted__pasted__group14/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group13/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group5
+        weight: 1
+      - path: group25/pasted__group24/pasted__pasted__group22/pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__pasted__pasted__group14/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group13/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group5/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group4
+        weight: 1
+      - path: group25/pasted__group24/pasted__pasted__group22/pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__pasted__pasted__group14/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group13/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group5/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group4/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pCone1
+        weight: 1
+      - path: group26
+        weight: 1
+      - path: group26/pasted__group25
+        weight: 1
+      - path: group26/pasted__group25/pasted__pasted__group24
+        weight: 1
+      - path: group26/pasted__group25/pasted__pasted__group24/pasted__pasted__pasted__group22
+        weight: 1
+      - path: group26/pasted__group25/pasted__pasted__group24/pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__group20
+        weight: 1
+      - path: group26/pasted__group25/pasted__pasted__group24/pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__group18
+        weight: 1
+      - path: group26/pasted__group25/pasted__pasted__group24/pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__pasted__group15
+        weight: 1
+      - path: group26/pasted__group25/pasted__pasted__group24/pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group14
+        weight: 1
+      - path: group26/pasted__group25/pasted__pasted__group24/pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group14/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group13
+        weight: 1
+      - path: group26/pasted__group25/pasted__pasted__group24/pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group14/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group13/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group5
+        weight: 1
+      - path: group26/pasted__group25/pasted__pasted__group24/pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group14/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group13/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group5/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group4
+        weight: 1
+      - path: group26/pasted__group25/pasted__pasted__group24/pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group14/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group13/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group5/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group4/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pCone1
+        weight: 1
+      - path: group26/pasted__group25/pasted__pasted__group24/pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group14/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group13/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group5/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group4/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pCone1/transform26
+        weight: 1
+      - path: group27
+        weight: 1
+      - path: group27/pasted__group26
+        weight: 1
+      - path: group27/pasted__group26/pasted__pasted__group25
+        weight: 1
+      - path: group27/pasted__group26/pasted__pasted__group25/pasted__pasted__pasted__group24
+        weight: 1
+      - path: group27/pasted__group26/pasted__pasted__group25/pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__group22
+        weight: 1
+      - path: group27/pasted__group26/pasted__pasted__group25/pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__group20
+        weight: 1
+      - path: group27/pasted__group26/pasted__pasted__group25/pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__pasted__group18
+        weight: 1
+      - path: group27/pasted__group26/pasted__pasted__group25/pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group15
+        weight: 1
+      - path: group27/pasted__group26/pasted__pasted__group25/pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group14
+        weight: 1
+      - path: group27/pasted__group26/pasted__pasted__group25/pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group14/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group13
+        weight: 1
+      - path: group27/pasted__group26/pasted__pasted__group25/pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group14/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group13/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group5
+        weight: 1
+      - path: group27/pasted__group26/pasted__pasted__group25/pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group14/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group13/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group5/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group4
+        weight: 1
+      - path: group27/pasted__group26/pasted__pasted__group25/pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group14/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group13/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group5/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group4/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pCone1
+        weight: 1
+      - path: group28
+        weight: 1
+      - path: group28/pasted__group27
+        weight: 1
+      - path: group28/pasted__group27/pasted__pasted__group26
+        weight: 1
+      - path: group28/pasted__group27/pasted__pasted__group26/pasted__pasted__pasted__group25
+        weight: 1
+      - path: group28/pasted__group27/pasted__pasted__group26/pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__group24
+        weight: 1
+      - path: group28/pasted__group27/pasted__pasted__group26/pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__pasted__group22
+        weight: 1
+      - path: group28/pasted__group27/pasted__pasted__group26/pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__pasted__group20
+        weight: 1
+      - path: group28/pasted__group27/pasted__pasted__group26/pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group18
+        weight: 1
+      - path: group28/pasted__group27/pasted__pasted__group26/pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group15
+        weight: 1
+      - path: group28/pasted__group27/pasted__pasted__group26/pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group14
+        weight: 1
+      - path: group28/pasted__group27/pasted__pasted__group26/pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group14/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group13
+        weight: 1
+      - path: group28/pasted__group27/pasted__pasted__group26/pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group14/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group13/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group5
+        weight: 1
+      - path: group28/pasted__group27/pasted__pasted__group26/pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group14/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group13/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group5/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group4
+        weight: 1
+      - path: group28/pasted__group27/pasted__pasted__group26/pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group14/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group13/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group5/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group4/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pCone1
+        weight: 1
+      - path: group28/pasted__group27/pasted__pasted__group26/pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group14/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group13/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group5/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group4/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pCone1/transform28
+        weight: 1
+      - path: group29
+        weight: 1
+      - path: group29/pasted__group28
+        weight: 1
+      - path: group29/pasted__group28/pasted__pasted__group27
+        weight: 1
+      - path: group29/pasted__group28/pasted__pasted__group27/pasted__pasted__pasted__group26
+        weight: 1
+      - path: group29/pasted__group28/pasted__pasted__group27/pasted__pasted__pasted__group26/pasted__pasted__pasted__pasted__group25
+        weight: 1
+      - path: group29/pasted__group28/pasted__pasted__group27/pasted__pasted__pasted__group26/pasted__pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__pasted__group24
+        weight: 1
+      - path: group29/pasted__group28/pasted__pasted__group27/pasted__pasted__pasted__group26/pasted__pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__pasted__pasted__group22
+        weight: 1
+      - path: group29/pasted__group28/pasted__pasted__group27/pasted__pasted__pasted__group26/pasted__pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group20
+        weight: 1
+      - path: group29/pasted__group28/pasted__pasted__group27/pasted__pasted__pasted__group26/pasted__pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group18
+        weight: 1
+      - path: group29/pasted__group28/pasted__pasted__group27/pasted__pasted__pasted__group26/pasted__pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group15
+        weight: 1
+      - path: group29/pasted__group28/pasted__pasted__group27/pasted__pasted__pasted__group26/pasted__pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group14
+        weight: 1
+      - path: group29/pasted__group28/pasted__pasted__group27/pasted__pasted__pasted__group26/pasted__pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group14/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group13
+        weight: 1
+      - path: group29/pasted__group28/pasted__pasted__group27/pasted__pasted__pasted__group26/pasted__pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group14/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group13/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group5
+        weight: 1
+      - path: group29/pasted__group28/pasted__pasted__group27/pasted__pasted__pasted__group26/pasted__pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group14/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group13/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group5/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group4
+        weight: 1
+      - path: group29/pasted__group28/pasted__pasted__group27/pasted__pasted__pasted__group26/pasted__pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group14/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group13/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group5/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group4/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pCone1
+        weight: 1
+      - path: group30
+        weight: 1
+      - path: group30/pasted__group29
+        weight: 1
+      - path: group30/pasted__group29/pasted__pasted__group28
+        weight: 1
+      - path: group30/pasted__group29/pasted__pasted__group28/pasted__pasted__pasted__group27
+        weight: 1
+      - path: group30/pasted__group29/pasted__pasted__group28/pasted__pasted__pasted__group27/pasted__pasted__pasted__pasted__group26
+        weight: 1
+      - path: group30/pasted__group29/pasted__pasted__group28/pasted__pasted__pasted__group27/pasted__pasted__pasted__pasted__group26/pasted__pasted__pasted__pasted__pasted__group25
+        weight: 1
+      - path: group30/pasted__group29/pasted__pasted__group28/pasted__pasted__pasted__group27/pasted__pasted__pasted__pasted__group26/pasted__pasted__pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__pasted__pasted__group24
+        weight: 1
+      - path: group30/pasted__group29/pasted__pasted__group28/pasted__pasted__pasted__group27/pasted__pasted__pasted__pasted__group26/pasted__pasted__pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group22
+        weight: 1
+      - path: group30/pasted__group29/pasted__pasted__group28/pasted__pasted__pasted__group27/pasted__pasted__pasted__pasted__group26/pasted__pasted__pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group20
+        weight: 1
+      - path: group30/pasted__group29/pasted__pasted__group28/pasted__pasted__pasted__group27/pasted__pasted__pasted__pasted__group26/pasted__pasted__pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group18
+        weight: 1
+      - path: group30/pasted__group29/pasted__pasted__group28/pasted__pasted__pasted__group27/pasted__pasted__pasted__pasted__group26/pasted__pasted__pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group15
+        weight: 1
+      - path: group30/pasted__group29/pasted__pasted__group28/pasted__pasted__pasted__group27/pasted__pasted__pasted__pasted__group26/pasted__pasted__pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group14
+        weight: 1
+      - path: group30/pasted__group29/pasted__pasted__group28/pasted__pasted__pasted__group27/pasted__pasted__pasted__pasted__group26/pasted__pasted__pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group14/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group13
+        weight: 1
+      - path: group30/pasted__group29/pasted__pasted__group28/pasted__pasted__pasted__group27/pasted__pasted__pasted__pasted__group26/pasted__pasted__pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group14/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group13/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group5
+        weight: 1
+      - path: group30/pasted__group29/pasted__pasted__group28/pasted__pasted__pasted__group27/pasted__pasted__pasted__pasted__group26/pasted__pasted__pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group14/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group13/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group5/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group4
+        weight: 1
+      - path: group30/pasted__group29/pasted__pasted__group28/pasted__pasted__pasted__group27/pasted__pasted__pasted__pasted__group26/pasted__pasted__pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group14/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group13/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group5/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group4/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pCone1
+        weight: 1
+      - path: group30/pasted__group29/pasted__pasted__group28/pasted__pasted__pasted__group27/pasted__pasted__pasted__pasted__group26/pasted__pasted__pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group14/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group13/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group5/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group4/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pCone1/transform30
+        weight: 1
+      - path: group31
+        weight: 1
+      - path: group31/pasted__group30
+        weight: 1
+      - path: group31/pasted__group30/pasted__pasted__group29
+        weight: 1
+      - path: group31/pasted__group30/pasted__pasted__group29/pasted__pasted__pasted__group28
+        weight: 1
+      - path: group31/pasted__group30/pasted__pasted__group29/pasted__pasted__pasted__group28/pasted__pasted__pasted__pasted__group27
+        weight: 1
+      - path: group31/pasted__group30/pasted__pasted__group29/pasted__pasted__pasted__group28/pasted__pasted__pasted__pasted__group27/pasted__pasted__pasted__pasted__pasted__group26
+        weight: 1
+      - path: group31/pasted__group30/pasted__pasted__group29/pasted__pasted__pasted__group28/pasted__pasted__pasted__pasted__group27/pasted__pasted__pasted__pasted__pasted__group26/pasted__pasted__pasted__pasted__pasted__pasted__group25
+        weight: 1
+      - path: group31/pasted__group30/pasted__pasted__group29/pasted__pasted__pasted__group28/pasted__pasted__pasted__pasted__group27/pasted__pasted__pasted__pasted__pasted__group26/pasted__pasted__pasted__pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group24
+        weight: 1
+      - path: group31/pasted__group30/pasted__pasted__group29/pasted__pasted__pasted__group28/pasted__pasted__pasted__pasted__group27/pasted__pasted__pasted__pasted__pasted__group26/pasted__pasted__pasted__pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group22
+        weight: 1
+      - path: group31/pasted__group30/pasted__pasted__group29/pasted__pasted__pasted__group28/pasted__pasted__pasted__pasted__group27/pasted__pasted__pasted__pasted__pasted__group26/pasted__pasted__pasted__pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group20
+        weight: 1
+      - path: group31/pasted__group30/pasted__pasted__group29/pasted__pasted__pasted__group28/pasted__pasted__pasted__pasted__group27/pasted__pasted__pasted__pasted__pasted__group26/pasted__pasted__pasted__pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group18
+        weight: 1
+      - path: group31/pasted__group30/pasted__pasted__group29/pasted__pasted__pasted__group28/pasted__pasted__pasted__pasted__group27/pasted__pasted__pasted__pasted__pasted__group26/pasted__pasted__pasted__pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group15
+        weight: 1
+      - path: group31/pasted__group30/pasted__pasted__group29/pasted__pasted__pasted__group28/pasted__pasted__pasted__pasted__group27/pasted__pasted__pasted__pasted__pasted__group26/pasted__pasted__pasted__pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group14
+        weight: 1
+      - path: group31/pasted__group30/pasted__pasted__group29/pasted__pasted__pasted__group28/pasted__pasted__pasted__pasted__group27/pasted__pasted__pasted__pasted__pasted__group26/pasted__pasted__pasted__pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group14/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group13
+        weight: 1
+      - path: group31/pasted__group30/pasted__pasted__group29/pasted__pasted__pasted__group28/pasted__pasted__pasted__pasted__group27/pasted__pasted__pasted__pasted__pasted__group26/pasted__pasted__pasted__pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group14/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group13/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group5
+        weight: 1
+      - path: group31/pasted__group30/pasted__pasted__group29/pasted__pasted__pasted__group28/pasted__pasted__pasted__pasted__group27/pasted__pasted__pasted__pasted__pasted__group26/pasted__pasted__pasted__pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group14/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group13/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group5/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group4
+        weight: 1
+      - path: group31/pasted__group30/pasted__pasted__group29/pasted__pasted__pasted__group28/pasted__pasted__pasted__pasted__group27/pasted__pasted__pasted__pasted__pasted__group26/pasted__pasted__pasted__pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group14/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group13/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group5/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group4/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pCone1
+        weight: 1
+      - path: group32
+        weight: 1
+      - path: group32/pasted__group30 1
+        weight: 1
+      - path: group32/pasted__group30 1/pasted__pasted__group29 1
+        weight: 1
+      - path: group32/pasted__group30 1/pasted__pasted__group29 1/pasted__pasted__pasted__group28
+          1
+        weight: 1
+      - path: group32/pasted__group30 1/pasted__pasted__group29 1/pasted__pasted__pasted__group28
+          1/pasted__pasted__pasted__pasted__group27 1
+        weight: 1
+      - path: group32/pasted__group30 1/pasted__pasted__group29 1/pasted__pasted__pasted__group28
+          1/pasted__pasted__pasted__pasted__group27 1/pasted__pasted__pasted__pasted__pasted__group26
+          1
+        weight: 1
+      - path: group32/pasted__group30 1/pasted__pasted__group29 1/pasted__pasted__pasted__group28
+          1/pasted__pasted__pasted__pasted__group27 1/pasted__pasted__pasted__pasted__pasted__group26
+          1/pasted__pasted__pasted__pasted__pasted__pasted__group25 1
+        weight: 1
+      - path: group32/pasted__group30 1/pasted__pasted__group29 1/pasted__pasted__pasted__group28
+          1/pasted__pasted__pasted__pasted__group27 1/pasted__pasted__pasted__pasted__pasted__group26
+          1/pasted__pasted__pasted__pasted__pasted__pasted__group25 1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group24
+          1
+        weight: 1
+      - path: group32/pasted__group30 1/pasted__pasted__group29 1/pasted__pasted__pasted__group28
+          1/pasted__pasted__pasted__pasted__group27 1/pasted__pasted__pasted__pasted__pasted__group26
+          1/pasted__pasted__pasted__pasted__pasted__pasted__group25 1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group24
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group22
+          1
+        weight: 1
+      - path: group32/pasted__group30 1/pasted__pasted__group29 1/pasted__pasted__pasted__group28
+          1/pasted__pasted__pasted__pasted__group27 1/pasted__pasted__pasted__pasted__pasted__group26
+          1/pasted__pasted__pasted__pasted__pasted__pasted__group25 1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group24
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group22
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group20
+          1
+        weight: 1
+      - path: group32/pasted__group30 1/pasted__pasted__group29 1/pasted__pasted__pasted__group28
+          1/pasted__pasted__pasted__pasted__group27 1/pasted__pasted__pasted__pasted__pasted__group26
+          1/pasted__pasted__pasted__pasted__pasted__pasted__group25 1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group24
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group22
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group20
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group18
+          1
+        weight: 1
+      - path: group32/pasted__group30 1/pasted__pasted__group29 1/pasted__pasted__pasted__group28
+          1/pasted__pasted__pasted__pasted__group27 1/pasted__pasted__pasted__pasted__pasted__group26
+          1/pasted__pasted__pasted__pasted__pasted__pasted__group25 1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group24
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group22
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group20
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group18
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group15
+          1
+        weight: 1
+      - path: group32/pasted__group30 1/pasted__pasted__group29 1/pasted__pasted__pasted__group28
+          1/pasted__pasted__pasted__pasted__group27 1/pasted__pasted__pasted__pasted__pasted__group26
+          1/pasted__pasted__pasted__pasted__pasted__pasted__group25 1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group24
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group22
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group20
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group18
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group15
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group14
+          1
+        weight: 1
+      - path: group32/pasted__group30 1/pasted__pasted__group29 1/pasted__pasted__pasted__group28
+          1/pasted__pasted__pasted__pasted__group27 1/pasted__pasted__pasted__pasted__pasted__group26
+          1/pasted__pasted__pasted__pasted__pasted__pasted__group25 1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group24
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group22
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group20
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group18
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group15
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group14
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group13
+          1
+        weight: 1
+      - path: group32/pasted__group30 1/pasted__pasted__group29 1/pasted__pasted__pasted__group28
+          1/pasted__pasted__pasted__pasted__group27 1/pasted__pasted__pasted__pasted__pasted__group26
+          1/pasted__pasted__pasted__pasted__pasted__pasted__group25 1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group24
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group22
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group20
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group18
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group15
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group14
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group13
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group5
+          1
+        weight: 1
+      - path: group32/pasted__group30 1/pasted__pasted__group29 1/pasted__pasted__pasted__group28
+          1/pasted__pasted__pasted__pasted__group27 1/pasted__pasted__pasted__pasted__pasted__group26
+          1/pasted__pasted__pasted__pasted__pasted__pasted__group25 1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group24
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group22
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group20
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group18
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group15
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group14
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group13
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group5
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group4
+          1
+        weight: 1
+      - path: group32/pasted__group30 1/pasted__pasted__group29 1/pasted__pasted__pasted__group28
+          1/pasted__pasted__pasted__pasted__group27 1/pasted__pasted__pasted__pasted__pasted__group26
+          1/pasted__pasted__pasted__pasted__pasted__pasted__group25 1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group24
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group22
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group20
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group18
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group15
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group14
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group13
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group5
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group4
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pCone1
+          1
+        weight: 1
+      - path: group32/pasted__group30 1/pasted__pasted__group29 1/pasted__pasted__pasted__group28
+          1/pasted__pasted__pasted__pasted__group27 1/pasted__pasted__pasted__pasted__pasted__group26
+          1/pasted__pasted__pasted__pasted__pasted__pasted__group25 1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group24
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group22
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group20
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group18
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group15
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group14
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group13
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group5
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group4
+          1/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pCone1
+          1/transform32
+        weight: 1
+      - path: group33
+        weight: 1
+      - path: group33/pasted__group32
+        weight: 1
+      - path: group33/pasted__group32/pasted__pasted__group30
+        weight: 1
+      - path: group33/pasted__group32/pasted__pasted__group30/pasted__pasted__pasted__group29
+        weight: 1
+      - path: group33/pasted__group32/pasted__pasted__group30/pasted__pasted__pasted__group29/pasted__pasted__pasted__pasted__group28
+        weight: 1
+      - path: group33/pasted__group32/pasted__pasted__group30/pasted__pasted__pasted__group29/pasted__pasted__pasted__pasted__group28/pasted__pasted__pasted__pasted__pasted__group27
+        weight: 1
+      - path: group33/pasted__group32/pasted__pasted__group30/pasted__pasted__pasted__group29/pasted__pasted__pasted__pasted__group28/pasted__pasted__pasted__pasted__pasted__group27/pasted__pasted__pasted__pasted__pasted__pasted__group26
+        weight: 1
+      - path: group33/pasted__group32/pasted__pasted__group30/pasted__pasted__pasted__group29/pasted__pasted__pasted__pasted__group28/pasted__pasted__pasted__pasted__pasted__group27/pasted__pasted__pasted__pasted__pasted__pasted__group26/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group25
+        weight: 1
+      - path: group33/pasted__group32/pasted__pasted__group30/pasted__pasted__pasted__group29/pasted__pasted__pasted__pasted__group28/pasted__pasted__pasted__pasted__pasted__group27/pasted__pasted__pasted__pasted__pasted__pasted__group26/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group24
+        weight: 1
+      - path: group33/pasted__group32/pasted__pasted__group30/pasted__pasted__pasted__group29/pasted__pasted__pasted__pasted__group28/pasted__pasted__pasted__pasted__pasted__group27/pasted__pasted__pasted__pasted__pasted__pasted__group26/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group22
+        weight: 1
+      - path: group33/pasted__group32/pasted__pasted__group30/pasted__pasted__pasted__group29/pasted__pasted__pasted__pasted__group28/pasted__pasted__pasted__pasted__pasted__group27/pasted__pasted__pasted__pasted__pasted__pasted__group26/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group20
+        weight: 1
+      - path: group33/pasted__group32/pasted__pasted__group30/pasted__pasted__pasted__group29/pasted__pasted__pasted__pasted__group28/pasted__pasted__pasted__pasted__pasted__group27/pasted__pasted__pasted__pasted__pasted__pasted__group26/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group18
+        weight: 1
+      - path: group33/pasted__group32/pasted__pasted__group30/pasted__pasted__pasted__group29/pasted__pasted__pasted__pasted__group28/pasted__pasted__pasted__pasted__pasted__group27/pasted__pasted__pasted__pasted__pasted__pasted__group26/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group15
+        weight: 1
+      - path: group33/pasted__group32/pasted__pasted__group30/pasted__pasted__pasted__group29/pasted__pasted__pasted__pasted__group28/pasted__pasted__pasted__pasted__pasted__group27/pasted__pasted__pasted__pasted__pasted__pasted__group26/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group14
+        weight: 1
+      - path: group33/pasted__group32/pasted__pasted__group30/pasted__pasted__pasted__group29/pasted__pasted__pasted__pasted__group28/pasted__pasted__pasted__pasted__pasted__group27/pasted__pasted__pasted__pasted__pasted__pasted__group26/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group14/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group13
+        weight: 1
+      - path: group33/pasted__group32/pasted__pasted__group30/pasted__pasted__pasted__group29/pasted__pasted__pasted__pasted__group28/pasted__pasted__pasted__pasted__pasted__group27/pasted__pasted__pasted__pasted__pasted__pasted__group26/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group14/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group13/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group5
+        weight: 1
+      - path: group33/pasted__group32/pasted__pasted__group30/pasted__pasted__pasted__group29/pasted__pasted__pasted__pasted__group28/pasted__pasted__pasted__pasted__pasted__group27/pasted__pasted__pasted__pasted__pasted__pasted__group26/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group14/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group13/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group5/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group4
+        weight: 1
+      - path: group33/pasted__group32/pasted__pasted__group30/pasted__pasted__pasted__group29/pasted__pasted__pasted__pasted__group28/pasted__pasted__pasted__pasted__pasted__group27/pasted__pasted__pasted__pasted__pasted__pasted__group26/pasted__pasted__pasted__pasted__pasted__pasted__pasted__group25/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group24/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group22/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group20/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group18/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group15/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group14/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group13/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group5/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__group4/pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pCone1
+        weight: 1
+      - path: pCone1
+        weight: 1
+      - path: pCone1/transform1
+        weight: 1
+      - path: pCube1
+        weight: 1
+      - path: pPlane1
+        weight: 1
+      - path: pPlane1/transform2
+        weight: 1
+      - path: pPlane2
+        weight: 1
+      - path: pPlane2/transform4
+        weight: 1
+      - path: pPlane3
+        weight: 1
+      - path: pPlane3/transform6
+        weight: 1
+      - path: pPlane4
+        weight: 1
+      - path: pPlane4/transform8
+        weight: 1
+      - path: pPlane5
+        weight: 1
+      - path: pPlane5/transform10
+        weight: 1
+      - path: pPlane6
+        weight: 1
+      - path: pPlane6/transform12
+        weight: 1
+      - path: pPlane7
+        weight: 1
+      - path: pPlane7/transform14
+        weight: 1
+      - path: pPlane8
+        weight: 1
+      - path: pPlane8/transform17
+        weight: 1
+      - path: pPlane9
+        weight: 1
+      - path: pPlane9/transform19
+        weight: 1
+      - path: pPlane10
+        weight: 1
+      - path: pPlane10/transform21
+        weight: 1
+      - path: pPlane11
+        weight: 1
+      - path: pPlane11/transform23
+        weight: 1
+      - path: pPlane12
+        weight: 1
+      - path: pPlane12/transform25
+        weight: 1
+      - path: pPlane13
+        weight: 1
+      - path: pPlane13/transform27
+        weight: 1
+      - path: pPlane14
+        weight: 1
+      - path: pPlane14/transform29
+        weight: 1
+      - path: pPlane15
+        weight: 1
+      - path: pPlane15/transform31
+        weight: 1
+      - path: pPlane16
+        weight: 1
+      - path: pPlane16/transform33
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []

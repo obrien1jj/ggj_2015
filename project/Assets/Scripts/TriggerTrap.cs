@@ -24,7 +24,7 @@ public class TriggerTrap : MonoBehaviour {
 	}
 
 	// when Trap is triggered
-	void OnTriggerEnter (Collider other) {
+	IEnumerator OnTriggerEnter (Collider other) {
 	
 				// check if it the Hero on the trap
 		if (IsActive == true) {
@@ -33,16 +33,19 @@ public class TriggerTrap : MonoBehaviour {
 				other.gameObject.GetComponent<TrustValue> ().ChangeTrust (dTrust);
 				print (other.gameObject.GetComponent<TrustValue> ().trust);
 		
-				// Trap is moved with animation
-				if (IsChest == false)
-				//Move Hero
-					other.gameObject.GetComponent<Rigidbody> ().AddForce (dx, dy, dz);
-				else
-					IsActive = false;
-				print("hello");
 				animation.Play ("Take 001");
 				animation["Take 001"].speed = AnimSpeed;
-				print (AnimSpeed);
+				if (IsChest == false){
+				//Move Hero
+					other.gameObject.GetComponent<Rigidbody> ().AddForce (dx, dy, dz);
+					yield return new WaitForSeconds ((animation.clip.length/AnimSpeed));
+					animation["Take 001"].speed = -AnimSpeed;
+					animation.Play ("Take 001");
+
+				}
+				else
+					IsActive = false;
+
 
 			}
 		}
