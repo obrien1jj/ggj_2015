@@ -39,6 +39,9 @@ public class GameManager : MonoBehaviour {
 		}
 	}
 
+	[SerializeField] protected GameObject _wayPointMarker;
+	public GameObject wayPointMarker { get { return _wayPointMarker; }  }
+
 	protected void Update () {
 		actionMode = Input.GetKey(KeyCode.Space);
 		

@@ -106,21 +106,10 @@ public class Character : MonoBehaviour
 			controllerXfrm.forward = horizontalVelocity.normalized;
 	}
 
-	public void MoveTo(Ray ray)
+	public void MoveTo(Vector3 targetPos)
 	{					
-
-		RaycastHit hit;
-		if ( Physics.Raycast(ray, out hit) ) // && !UIManager.instance.DidAnyPointerHitUI())
-		{
-
-				targetLocation = hit.point;
-
-				moving = true;
-				
-				// Place a marker to indicate goal
-				//PlaceMarker(new Vector3(targetLocation.x, 3, targetLocation.z));
-
-		}	
+		targetLocation = targetPos;
+		moving = true;
 	}
 
 	void UpdateShadow()
