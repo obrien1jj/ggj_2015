@@ -4,8 +4,8 @@ using System.Collections;
 public class TrustValue : MonoBehaviour {
 
 	public int trust;
-
-
+	
+	
 	/////////////////////
 	//NOTE:  THE 8 HEROES HAVE PRESET TRAIT LEVELS, SO THEY WON'T BE RANDOM
 	//BUT THERE MIGHT BE MORE HEROES THAT DO HAVE RANDOM TRAITS
@@ -33,17 +33,20 @@ public class TrustValue : MonoBehaviour {
 		greed = (int)Random.Range (-20.0F, 20.0F);
 		trust = base_trust + ambition;
 		TrustBar.Instance.gameObject.GetComponent<TrustBar>().updateBar ((float)trust/100);
+
+
+
 	}
 	
 	// Update is called once per frame
 	void Update () {
-	
+
 	}
 
 	public void ChangeTrust (int dTrustVal) {
 		//if it's healing
 		if (dTrustVal > 0) {
-			this.GetComponent<Personality>().play_dialogue(this.GetComponent<Personality>().opens_treasure_chest);
+			this.GetComponent<Personality>().play_dialogue(this.GetComponent<Personality>().cleared_room);
 			trust += dTrustVal;
 			trust = Mathf.Min (trust, 100);
 		}

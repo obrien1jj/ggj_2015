@@ -16,11 +16,9 @@ public class Personality : MonoBehaviour {
 	//public Personality_Type attitude = Personality_Type.ambitious;
 
 
-	AudioClip MyAudio;
-
 	public List<AudioClip> cleared_room = new List<AudioClip>();
 	public List<AudioClip> hit_by_trap = new List<AudioClip>();
-	public List<AudioClip> opens_treasure_chest = new List<AudioClip>();
+	//public List<AudioClip> opens_treasure_chest = new List<AudioClip>();
 	public List<AudioClip> run_out_of_trust = new List<AudioClip>();
 	public List<AudioClip> upon_selection = new List<AudioClip>();
 

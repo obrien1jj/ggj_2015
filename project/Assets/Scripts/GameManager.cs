@@ -2,8 +2,6 @@
 using System.Collections;
 
 public class GameManager : MonoBehaviour {
-
-
 	private static GameManager instance = null;
 	public static GameManager Instance {
 		get {
@@ -39,6 +37,11 @@ public class GameManager : MonoBehaviour {
 		}
 	}
 
+	// Use this for initialization
+	void Start () {
+		
+	}
+
 	public bool disableActionMode { get; set; }
 
 	[SerializeField] protected GameObject _wayPointMarker;
@@ -47,7 +50,7 @@ public class GameManager : MonoBehaviour {
 	protected void Update () {
 		if (!disableActionMode)
 			actionMode = Input.GetKey(KeyCode.Space);
-		
+
 	}
 
 }
