@@ -3,6 +3,8 @@
 [Oo]bj/
 [Bb]uild/
 
+Standard Assets (Mobile)
+Standard Assets (Mobile).meta
 
 *.csproj
 *.unityproj
@@ -12,6 +14,14 @@
 *.userprefs
 *.pidb
 *.booproj
+
+
+#Advanced Inspector Stuff
+/project/Assets/Plugins/Editor/AdvancedInspector/
+/project/Assets/Plugins/AdvancedInspector/
+/project/Assets/ThirdParty/AdvancedInspector/
+AdvancedInspector.meta
+
 
 #Unity3D Generated File On Crash Reports
 sysinfo.txt
