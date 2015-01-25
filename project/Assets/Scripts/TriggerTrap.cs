@@ -7,6 +7,8 @@ public class TriggerTrap : MonoBehaviour {
 	public bool IsLethal = false;
 	public bool IsActive = true;
 	public bool IsChest = true;
+	public bool IsAxe = false;
+	public bool IsArrow = false;
 	public int AnimSpeed = 1;
 	public bool GlobalF = true;
 	public int dx;
@@ -38,7 +40,13 @@ public class TriggerTrap : MonoBehaviour {
 				//damage Trust
 				other.gameObject.GetComponent<TrustValue> ().ChangeTrust (dTrust);
 				//print (other.gameObject.GetComponent<TrustValue> ().trust);
-		
+				if (IsAxe == true) {
+					if (GlobalF == true)
+						other.gameObject.GetComponent<NavAi> ().GlobalForce (dx, dy, dz);
+					else
+						other.gameObject.GetComponent<NavAi> ().RelativeForce (dx, dy, dz);
+				}
+				if ( IsAxe != true) {
 				animation.Play ("Take 001");
 				animation["Take 001"].speed = AnimSpeed;
 				if (IsChest == false){
@@ -56,6 +64,7 @@ public class TriggerTrap : MonoBehaviour {
 				}
 				else
 					IsActive = false;
+				}
 			}
 		}
 	}
