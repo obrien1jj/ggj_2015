@@ -41,6 +41,6 @@ public class TrustValue : MonoBehaviour {
 
 	public void ChangeTrust (int dTrustVal) {
 		trust += dTrustVal;
-		gameObject.GetComponent<TrustBar>().updateBar ((float)trust/100);
+		gameObject.GetComponent<TrustBar>().updateBar ((float)trust/(base_trust+ambition));
 	}
 }
