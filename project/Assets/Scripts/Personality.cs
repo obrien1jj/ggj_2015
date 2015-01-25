@@ -36,7 +36,7 @@ public class Personality : MonoBehaviour {
 
 	}
 
-	void play_dialogue(List<AudioClip> g_audio_list){
+	public void play_dialogue(List<AudioClip> g_audio_list){
 		AudioSource.PlayClipAtPoint(g_audio_list[(int)Random.Range (0.0F, g_audio_list.Count)], transform.position);
 	}     
 

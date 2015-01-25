@@ -5,7 +5,7 @@ public class OnDeath : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
-		
+
 	}
 	
 	// Update is called once per frame
@@ -14,11 +14,12 @@ public class OnDeath : MonoBehaviour {
 	}
 	
 	void Do_Stuff(){
-		//possibly print some dialogues
+		//play some dialogues
+
+		this.GetComponent<Personality>().play_dialogue(this.GetComponent<Personality>().run_out_of_trust);
 		//make hero run off into a random adjacent room
 		//prevent action mode from activating
 		//destroy the hero object
-		//possilby print some dialogue
 		//make a dead body in that room
 		
 		
