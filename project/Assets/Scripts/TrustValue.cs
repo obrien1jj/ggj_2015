@@ -11,9 +11,8 @@ public class TrustValue : MonoBehaviour {
 	//BUT THERE MIGHT BE MORE HEROES THAT DO HAVE RANDOM TRAITS
 	/////////////////////
 
-
 	//base starting trust
-	int base_trust = 50;
+	int base_trust = 80;
 	//ambitious		|	cautious	:	how much trust the hero starts with
 	public int ambition;  //used to be "startTrust"
 	//rugged		|	feeble		:   how much the hero loses from a single trap
@@ -42,5 +41,6 @@ public class TrustValue : MonoBehaviour {
 
 	public void ChangeTrust (int dTrustVal) {
 		trust += dTrustVal;
+		gameObject.GetComponent<TrustBar>().updateBar ((float)trust/(base_trust+ambition));
 	}
 }
