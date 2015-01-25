@@ -39,8 +39,10 @@ public class TriggerTrap : MonoBehaviour {
 					other.gameObject.GetComponent<Rigidbody> ().AddForce (dx, dy, dz);
 				else
 					IsActive = false;
+				print("hello");
 				animation.Play ("Take 001");
 				animation["Take 001"].speed = AnimSpeed;
+				print (AnimSpeed);
 
 			}
 		}
