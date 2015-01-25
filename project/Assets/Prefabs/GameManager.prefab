@@ -40,6 +40,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actionModeTintMaterial: {fileID: 2100000, guid: 88fa8811954171c439b750d3d6741d84,
     type: 2}
+  _wayPointMarker: {fileID: 100000, guid: 91f6494eba8d53140a3d8b06022c6464, type: 2}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

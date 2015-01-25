@@ -697,10 +697,13 @@ MonoBehaviour:
     spriteCollectionDataGUID: aa62088392807324ca0361c724fb36bc
     spriteNames:
     - shadow
+    - glossy-pink-circle-button-md
     spriteTextureGUIDs:
     - 3fdeb3c7474fb2443b2524349e64bc8d
+    - f5e27d7738dd7f0418cdfbdec49b6818
     spriteTextureTimeStamps:
     - 1366477374
+    - 1422129998.45352
     managedSpriteCollection: 0
     loadable: 0
     assetName: 

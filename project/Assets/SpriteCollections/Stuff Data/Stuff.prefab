@@ -58,10 +58,10 @@ MonoBehaviour:
     normals: []
     tangents: []
     uvs:
-    - {x: .0156328119, y: .00781640597}
-    - {x: .0156328119, y: .656246066}
-    - {x: .507804692, y: .00781640597}
-    - {x: .507804692, y: .656246066}
+    - {x: .00390820298, y: .597658217}
+    - {x: .00390820298, y: .921873033}
+    - {x: .126951173, y: .597658217}
+    - {x: .126951173, y: .921873033}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: e841ce75ff7010a47bf5d0c19efbd877, type: 2}
     materialId: 0
@@ -72,6 +72,48 @@ MonoBehaviour:
     regionW: 0
     regionH: 0
     flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: glossy-pink-circle-button-md
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 300, y: 300, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 300, y: 300, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -150, y: -150, z: 0}
+    - {x: 150, y: -150, z: 0}
+    - {x: -150, y: 150, z: 0}
+    - {x: 150, y: 150, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .00390820298}
+    - {x: .589841783, y: .00390820298}
+    - {x: .00390820298, y: .589841783}
+    - {x: .589841783, y: .589841783}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: e841ce75ff7010a47bf5d0c19efbd877, type: 2}
+    materialId: 0
+    sourceTextureGUID: f5e27d7738dd7f0418cdfbdec49b6818
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 0
@@ -101,7 +143,7 @@ MonoBehaviour:
   loadable: 0
   invOrthoSize: 2
   halfTargetHeight: .5
-  buildKey: 136036061
+  buildKey: 25293305
   dataGuid: aa62088392807324ca0361c724fb36bc
   managedSpriteCollection: 0
   hasPlatformData: 0
