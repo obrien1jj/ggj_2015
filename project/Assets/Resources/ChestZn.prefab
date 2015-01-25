@@ -59,8 +59,8 @@ GameObject:
   - 208: {fileID: 20800000}
   - 65: {fileID: 6500002}
   m_Layer: 0
-  m_Name: ChestZ-
-  m_TagString: Untagged
+  m_Name: ChestZn
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

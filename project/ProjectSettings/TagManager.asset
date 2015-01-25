@@ -4,6 +4,8 @@
 TagManager:
   tags:
   - Hero
+  - Trap
+  - GUICamera
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX
